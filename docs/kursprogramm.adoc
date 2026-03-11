@@ -22,7 +22,7 @@ Seniorinnen und Senioren mit kaum oder keiner Mac-Erfahrung, die macOS grundlege
 Nach dem Kurs können die Teilnehmenden:
 
 * Den macOS-Desktop, das Dock und die Menüleiste selbstständig bedienen
-* Apps über das Launchpad starten und Fenster verwalten
+* Apps über Spotlight starten und Fenster verwalten
 * Eine WLAN-Verbindung herstellen und den Browser öffnen
 * Ordner und Dateien im Finder anlegen und verwalten
 * Dokumente erstellen, speichern und wieder öffnen
@@ -96,13 +96,13 @@ Das *Dock* ist die Leiste am unteren Bildschirmrand. Es enthält:
 Apps können ins Dock gezogen oder daraus entfernt werden. Durch Rechtsklick (oder Ctrl+Klick) auf ein Dock-Symbol erscheinen weitere Optionen.
 ====
 
-==== Theorie: Launchpad
+==== Theorie: Spotlight
 
-Das *Launchpad* zeigt alle installierten Apps in einer Übersicht:
+*Spotlight* ist die Suchfunktion von macOS. Sie öffnet ein Suchfeld in der Bildschirmmitte:
 
-* Öffnen über: Launchpad-Symbol im Dock (Raketen-Symbol) oder Tastenkombination kbd:[F4]
-* Apps können gesucht werden (Suchfeld oben)
-* Apps können zu Ordnern gruppiert werden (Symbol auf Symbol ziehen)
+* Öffnen über: kbd:[⌘+Leertaste] (Command-Taste und Leertaste gleichzeitig drücken)
+* Apps, Dateien, Kontakte und Webseiten können gesucht werden
+* Das erste Ergebnis mit kbd:[Enter] öffnen – oder in der Liste klicken
 
 ---
 
@@ -126,15 +126,15 @@ Wenn etwas nicht sichtbar ist, kann der Kursleiter helfen.
 
 ---
 
-==== Übung 2 – Launchpad öffnen und Taschenrechner starten
+==== Übung 2 – Spotlight öffnen und Taschenrechner starten
 
-*Ziel:* Das Launchpad bedienen und ein Programm starten.
+*Ziel:* Spotlight bedienen und ein Programm starten.
 
-. Klicken Sie auf das *Launchpad-Symbol* im Dock (Rakete).
-  ** Das Launchpad öffnet sich – alle Apps sind sichtbar.
-. Schauen Sie sich die App-Symbole an.
-. Klicken Sie oben in das Suchfeld und tippen Sie «Rechner».
-. Klicken Sie auf *Rechner* in den Ergebnissen.
+. Drücken Sie kbd:[⌘+Leertaste] (Command und Leertaste gleichzeitig).
+  ** Ein Suchfeld erscheint in der Bildschirmmitte.
+. Tippen Sie: `Rechner`
+  ** Bereits beim Tippen erscheinen Vorschläge.
+. Klicken Sie auf *Rechner* in den Ergebnissen (oder drücken Sie kbd:[Enter]).
   ** Der Rechner öffnet sich als Fenster.
 . Geben Sie eine einfache Rechnung ein, z. B. kbd:[5] kbd:[+] kbd:[3] kbd:[=].
 
@@ -144,9 +144,9 @@ Wenn etwas nicht sichtbar ist, kann der Kursleiter helfen.
 
 *Ziel:* Eine App dauerhaft ins Dock aufnehmen.
 
-. Öffnen Sie das Launchpad.
-. Suchen Sie die App *TextEdit* (Texteditorsymbol).
-. Klicken Sie auf *TextEdit*, um die App zu starten.
+. Drücken Sie kbd:[⌘+Leertaste], tippen Sie `TextEdit` und drücken Sie kbd:[Enter].
+  ** TextEdit startet.
+. Schauen Sie sich das TextEdit-Symbol im Dock an.
   ** Im Dock erscheint das TextEdit-Symbol mit einem Punkt darunter.
 . Klicken Sie mit *Ctrl+Klick* (oder rechte Maustaste) auf das *TextEdit-Symbol im Dock*.
 . Wählen Sie *Optionen* → *Im Dock behalten*.
@@ -211,7 +211,7 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
 
 *Ziel:* Ein Fenster verschieben und die Grösse ändern.
 
-. Starten Sie den *Rechner* (Launchpad → Rechner).
+. Starten Sie den *Rechner* (kbd:[⌘+Leertaste] → «Rechner» tippen → kbd:[Enter]).
 . Klicken Sie auf die *Titelleiste* (die obere Leiste des Fensters) und halten Sie die Maustaste gedrückt.
 . Ziehen Sie das Fenster in die Mitte des Bildschirms und lassen Sie los.
 . Zeigen Sie mit der Maus auf eine *Fensterecke*, bis ein Doppelpfeil erscheint.
@@ -315,12 +315,12 @@ Trackpad: Streichen Sie mit zwei Fingern nach unten, um die Seite nach unten zu 
 
 *Was haben wir heute gelernt?*
 
-* [x] Desktop, Menüleiste, Dock und Launchpad kennen
+* [x] Desktop, Menüleiste, Dock und Spotlight kennen
 * [x] Apps starten und im Dock behalten
 * [x] Fenster öffnen, verschieben, teilen und wechseln
 * [x] WLAN prüfen und Webseite aufrufen
 
-*Hausaufgabe (freiwillig):* Öffnen Sie zu Hause das Launchpad und starten Sie zwei verschiedene Apps.
+*Hausaufgabe (freiwillig):* Öffnen Sie zu Hause Spotlight (kbd:[⌘+Leertaste]) und starten Sie zwei verschiedene Apps.
 
 ---
 
@@ -329,7 +329,7 @@ Trackpad: Streichen Sie mit zwei Fingern nach unten, um die Seite nach unten zu 
 === Rückblick Tag 1 (09:00–09:15)
 
 * Fragen zu Tag 1 klären
-* Kurze Wiederholung: Desktop, Launchpad, Fenster, WLAN
+* Kurze Wiederholung: Desktop, Spotlight, Fenster, WLAN
 * Tagesprogramm vorstellen
 
 ---
@@ -474,7 +474,7 @@ Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt
 
 *TextEdit* ist ein einfaches Textprogramm von macOS. Es eignet sich für einfache Texte.
 
-Öffnen über: Dock → TextEdit-Symbol (oder Launchpad → «TextEdit» eingeben)
+Öffnen über: Dock → TextEdit-Symbol (oder kbd:[⌘+Leertaste] → «TextEdit» eingeben → kbd:[Enter])
 
 [TIP]
 ====
@@ -625,7 +625,7 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 
 *Was haben wir heute und in beiden Kurstagen gelernt?*
 
-* [x] Desktop, Menüleiste, Dock und Launchpad bedienen
+* [x] Desktop, Menüleiste, Dock und Spotlight bedienen
 * [x] Fenster verwalten und zwischen Apps wechseln
 * [x] WLAN verbinden und im Internet surfen
 * [x] Ordner und Dateien im Finder verwalten
@@ -683,7 +683,4 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 
 | kbd:[Enter]
 | Ausgewählte Datei / Ordner umbenennen (im Finder)
-
-| kbd:[F4]
-| Launchpad öffnen
 |===

@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="author" content="Pro Senectute Luzern, Jürg Luthiger">
+<title>macOS Grundkurs – Kursprogramm</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>macOS Grundkurs – Kursprogramm</h1>
+<div class="details">
+<span id="author" class="author">Pro Senectute Luzern</span><br>
+<span id="author2" class="author">Jürg Luthiger</span><br>
+<span id="revnumber">version 1.0</span>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_kursüberblick">1. Kursüberblick</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_zielgruppe">1.1. Zielgruppe</h3>
+<div class="paragraph">
+<p>Seniorinnen und Senioren mit kaum oder keiner Mac-Erfahrung, die macOS grundlegend kennenlernen möchten.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele">1.2. Lernziele</h3>
+<div class="paragraph">
+<p>Nach dem Kurs können die Teilnehmenden:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Den macOS-Desktop, das Dock und die Menüleiste selbstständig bedienen</p>
+</li>
+<li>
+<p>Apps über das Launchpad starten und Fenster verwalten</p>
+</li>
+<li>
+<p>Eine WLAN-Verbindung herstellen und den Browser öffnen</p>
+</li>
+<li>
+<p>Ordner und Dateien im Finder anlegen und verwalten</p>
+</li>
+<li>
+<p>Dokumente erstellen, speichern und wieder öffnen</p>
+</li>
+<li>
+<p>Dateien in iCloud Drive ablegen</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_voraussetzungen">1.3. Voraussetzungen</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Kein Vorwissen nötig</p>
+</li>
+<li>
+<p>Grundlegende Handhabung einer Maus oder des Trackpads (bewegen, klicken) hilfreich</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_zeitplan">1.4. Zeitplan</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 66.6666%;">
+<col style="width: 16.6668%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Tag</th>
+<th class="tableblock halign-left valign-top">Inhalt</th>
+<th class="tableblock halign-center valign-top">Zeit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Tag 1</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">macOS kennenlernen (Desktop, Fenster, WLAN)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">09:00–12:00</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Tag 2</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dateien verwalten und speichern (Finder, TextEdit, iCloud)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">09:00–12:00</p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tag_1_macos_kennenlernen">2. Tag 1 – macOS kennenlernen</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_begrüssung_und_einführung_09000915">2.1. Begrüssung und Einführung (09:00–09:15)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Vorstellungsrunde: Name und Erwartungen</p>
+</li>
+<li>
+<p>Kursüberblick: Was lernen wir heute und morgen?</p>
+</li>
+<li>
+<p>Praktischer Hinweis: Ruhig Fragen stellen, es gibt kein «Zu-langsam»</p>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_modul_1_macos_grundlagen_09151030">2.2. Modul 1: macOS Grundlagen (09:15–10:30)</h3>
+<div class="sect3">
+<h4 id="_theorie_desktop">2.2.1. Theorie: Desktop</h4>
+<div class="paragraph">
+<p>Der <strong>Desktop</strong> ist der Startbildschirm von macOS – wie eine digitale Arbeitsfläche.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Wichtige Begriffe:</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Symbol (Icon):</strong> Kleines Bild, das ein Programm oder eine Datei darstellt</p>
+</li>
+<li>
+<p><strong>Hintergrundbild (Wallpaper):</strong> Das Bild, das den Desktop ziert</p>
+</li>
+<li>
+<p><strong>Uhr:</strong> Wird oben rechts in der Menüleiste angezeigt</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_theorie_menüleiste">2.2.2. Theorie: Menüleiste</h4>
+<div class="paragraph">
+<p>Die <strong>Menüleiste</strong> ist die Leiste am <strong>oberen</strong> Bildschirmrand. Sie enthält:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Apple-Menü</strong> (🍎 links oben) – Systemeinstellungen, Neustart, Ausschalten</p>
+</li>
+<li>
+<p><strong>App-Menüs</strong> – wechseln je nach aktiver App (Ablage, Bearbeiten usw.)</p>
+</li>
+<li>
+<p><strong>Statusleiste</strong> – rechts oben: Uhr, WLAN, Lautstärke, Akku</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_theorie_dock">2.2.3. Theorie: Dock</h4>
+<div class="paragraph">
+<p>Das <strong>Dock</strong> ist die Leiste am unteren Bildschirmrand. Es enthält:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Häufig verwendete Apps als Symbole</p>
+</li>
+<li>
+<p>Gerade geöffnete Apps (kleiner Punkt unter dem Symbol)</p>
+</li>
+<li>
+<p>Rechts vom Trennstrich: Papierkorb und zuletzt geöffnete Dateien</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Apps können ins Dock gezogen oder daraus entfernt werden. Durch Rechtsklick (oder Ctrl+Klick) auf ein Dock-Symbol erscheinen weitere Optionen.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_theorie_launchpad">2.2.4. Theorie: Launchpad</h4>
+<div class="paragraph">
+<p>Das <strong>Launchpad</strong> zeigt alle installierten Apps in einer Übersicht:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Öffnen über: Launchpad-Symbol im Dock (Raketen-Symbol) oder Tastenkombination <kbd>F4</kbd></p>
+</li>
+<li>
+<p>Apps können gesucht werden (Suchfeld oben)</p>
+</li>
+<li>
+<p>Apps können zu Ordnern gruppiert werden (Symbol auf Symbol ziehen)</p>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_1_desktop_erkunden">2.2.5. Übung 1 – Desktop erkunden</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Den Desktop kennenlernen und 5 Elemente benennen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Schauen Sie sich den Desktop genau an.</p>
+</li>
+<li>
+<p>Zeigen Sie mit der Maus auf ein Symbol – es erscheint ein kleiner Hinweistext.</p>
+</li>
+<li>
+<p>Suchen Sie diese 5 Dinge und nennen Sie sie laut:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Menüleiste (ganz oben)</p>
+</li>
+<li>
+<p>Das Apple-Symbol (🍎 oben links)</p>
+</li>
+<li>
+<p>Das Dock (unten)</p>
+</li>
+<li>
+<p>Die Uhr (oben rechts)</p>
+</li>
+<li>
+<p>Den Papierkorb (rechts im Dock)</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Wenn etwas nicht sichtbar ist, kann der Kursleiter helfen.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_2_launchpad_öffnen_und_taschenrechner_starten">2.2.6. Übung 2 – Launchpad öffnen und Taschenrechner starten</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Das Launchpad bedienen und ein Programm starten.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie auf das <strong>Launchpad-Symbol</strong> im Dock (Rakete).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Das Launchpad öffnet sich – alle Apps sind sichtbar.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Schauen Sie sich die App-Symbole an.</p>
+</li>
+<li>
+<p>Klicken Sie oben in das Suchfeld und tippen Sie «Rechner».</p>
+</li>
+<li>
+<p>Klicken Sie auf <strong>Rechner</strong> in den Ergebnissen.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Rechner öffnet sich als Fenster.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Geben Sie eine einfache Rechnung ein, z. B. <kbd>5</kbd> <kbd>+</kbd> <kbd>3</kbd> <kbd>=</kbd>.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_3_app_ins_dock_hinzufügen">2.2.7. Übung 3 – App ins Dock hinzufügen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Eine App dauerhaft ins Dock aufnehmen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Öffnen Sie das Launchpad.</p>
+</li>
+<li>
+<p>Suchen Sie die App <strong>TextEdit</strong> (Texteditorsymbol).</p>
+</li>
+<li>
+<p>Klicken Sie auf <strong>TextEdit</strong>, um die App zu starten.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Im Dock erscheint das TextEdit-Symbol mit einem Punkt darunter.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie mit <strong>Ctrl+Klick</strong> (oder rechte Maustaste) auf das <strong>TextEdit-Symbol im Dock</strong>.</p>
+</li>
+<li>
+<p>Wählen Sie <strong>Optionen</strong> → <strong>Im Dock behalten</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Das Symbol bleibt auch nach dem Beenden im Dock.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf das Symbol → <strong>Aus Dock entfernen</strong>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_4_uhrzeit_und_datum_ablesen">2.2.8. Übung 4 – Uhrzeit und Datum ablesen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Uhrzeit und Datum in der Menüleiste lesen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Schauen Sie in die obere rechte Ecke des Bildschirms.</p>
+</li>
+<li>
+<p>Lesen Sie die angezeigte Uhrzeit vor.</p>
+</li>
+<li>
+<p>Klicken Sie einmal auf die Uhrzeit.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ein kleiner Kalender wird eingeblendet.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie auf <strong>Datum &amp; Uhrzeit-Einstellungen öffnen</strong>, um mehr zu sehen.</p>
+</li>
+<li>
+<p>Drücken Sie <span class="keyseq"><kbd>⌘</kbd>+<kbd>W</kbd></span> oder klicken Sie das rote Knöpfchen, um das Fenster zu schliessen.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_pause_10301045">2.3. Pause (10:30–10:45)</h3>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_modul_2_mit_fenstern_arbeiten_10451130">2.4. Modul 2: Mit Fenstern arbeiten (10:45–11:30)</h3>
+<div class="sect3">
+<h4 id="_theorie_fenster_verstehen">2.4.1. Theorie: Fenster verstehen</h4>
+<div class="paragraph">
+<p>Jedes Programm öffnet sich in einem <strong>Fenster</strong>. Oben links im Fenster gibt es drei farbige Knöpfchen:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Knopf</th>
+<th class="tableblock halign-left valign-top">Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">🔴 Rot</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Schliessen:</strong> Fenster wird geschlossen (App läuft evtl. weiter)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">🟡 Gelb</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Minimieren:</strong> Fenster verschwindet ins Dock, ist aber noch offen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">🟢 Grün</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Vollbild / Split View:</strong> Fenster füllt den ganzen Bildschirm (oder teilt ihn)</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Ein Fenster kann auch mit der Maus <strong>verschoben</strong> werden: Titelleiste anfassen und ziehen.</p>
+</div>
+<div class="paragraph">
+<p>Die Grösse lässt sich ändern, indem man einen <strong>Fensterrand oder -ecke</strong> mit der Maus zieht.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Split View:</strong> Halten Sie den grünen Knopf gedrückt – macOS schlägt vor, den Bildschirm mit einem zweiten Fenster zu teilen.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_5_rechner_öffnen_und_verschieben">2.4.2. Übung 5 – Rechner öffnen und verschieben</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Ein Fenster verschieben und die Grösse ändern.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Starten Sie den <strong>Rechner</strong> (Launchpad → Rechner).</p>
+</li>
+<li>
+<p>Klicken Sie auf die <strong>Titelleiste</strong> (die obere Leiste des Fensters) und halten Sie die Maustaste gedrückt.</p>
+</li>
+<li>
+<p>Ziehen Sie das Fenster in die Mitte des Bildschirms und lassen Sie los.</p>
+</li>
+<li>
+<p>Zeigen Sie mit der Maus auf eine <strong>Fensterecke</strong>, bis ein Doppelpfeil erscheint.</p>
+</li>
+<li>
+<p>Ziehen Sie die Ecke, um das Fenster grösser oder kleiner zu machen.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_6_split_view_bildschirm_teilen">2.4.3. Übung 6 – Split View (Bildschirm teilen)</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Zwei Fenster nebeneinander anzeigen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Öffnen Sie <strong>Safari</strong> (Globus-Symbol im Dock).</p>
+</li>
+<li>
+<p>Halten Sie den <strong>grünen Knopf</strong> von Safari gedrückt.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ein Menü erscheint mit «Fenster links im Splitscreen platzieren» usw.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Wählen Sie <strong>Fenster links im Splitscreen platzieren</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Safari füllt die linke Hälfte.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie rechts auf <strong>Rechner</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Rechner füllt die rechte Hälfte.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Sie sehen jetzt zwei Fenster nebeneinander.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Um den Splitscreen zu beenden, drücken Sie <kbd>Escape</kbd> oder klicken Sie erneut auf den grünen Knopf.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_7_zwischen_apps_wechseln">2.4.4. Übung 7 – Zwischen Apps wechseln</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Zwischen zwei offenen Apps hin- und herwechseln.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Stellen Sie sicher, dass Rechner und Safari geöffnet sind.</p>
+</li>
+<li>
+<p>Klicken Sie im <strong>Dock</strong> auf das Rechner-Symbol.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Rechner wird aktiv (in den Vordergrund geholt).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie im Dock auf das <strong>Safari-Symbol</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Safari kommt in den Vordergrund.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Drücken Sie <span class="keyseq"><kbd>⌘</kbd>+<kbd>Tab</kbd></span> (Command-Taste halten, Tab-Taste drücken).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es erscheint eine Übersicht aller offenen Apps.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Halten Sie <kbd>⌘</kbd> gedrückt und drücken Sie nochmals <kbd>Tab</kbd>, um zur gewünschten App zu wechseln.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_modul_3_wlan_und_internet_11301200">2.5. Modul 3: WLAN und Internet (11:30–12:00)</h3>
+<div class="sect3">
+<h4 id="_theorie_wlan_verbindung">2.5.1. Theorie: WLAN-Verbindung</h4>
+<div class="paragraph">
+<p>Das <strong>WLAN-Symbol</strong> befindet sich oben rechts in der Menüleiste (sieht aus wie Funkwellen). Darüber können Sie:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Sehen, ob Sie verbunden sind</p>
+</li>
+<li>
+<p>Sich mit einem WLAN-Netzwerk verbinden</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>WLAN</strong> (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter oder steht auf Ihrem Router.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_theorie_safari">2.5.2. Theorie: Safari</h4>
+<div class="paragraph">
+<p><strong>Safari</strong> ist der eingebaute <strong>Webbrowser</strong> von macOS. Mit ihm rufen Sie Webseiten auf:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Safari öffnen (Symbol im Dock)</p>
+</li>
+<li>
+<p>Adresse in die <strong>Adressleiste</strong> (oben) eintippen</p>
+</li>
+<li>
+<p><kbd>Enter</kbd> drücken</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_8_wlan_status_prüfen">2.5.3. Übung 8 – WLAN-Status prüfen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> WLAN-Symbol finden und Verbindungsstatus prüfen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Schauen Sie oben rechts in die Menüleiste.</p>
+</li>
+<li>
+<p>Klicken Sie auf das <strong>WLAN-Symbol</strong> (Funkwellen-Symbol).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es öffnet sich ein Menü mit verfügbaren Netzwerken.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Prüfen Sie: Ist ein Netzwerk mit Häkchen markiert? Das ist die aktuelle Verbindung.</p>
+</li>
+<li>
+<p>Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ein Passwort-Fenster erscheint.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf <strong>Verbinden</strong>.</p>
+</li>
+<li>
+<p>Drücken Sie <kbd>Escape</kbd>, um das Menü zu schliessen.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_9_webseite_aufrufen">2.5.4. Übung 9 – Webseite aufrufen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Den Browser öffnen und eine Webseite besuchen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie auf das <strong>Safari-Symbol</strong> im Dock (blauer Globus).</p>
+</li>
+<li>
+<p>Safari öffnet sich. Klicken Sie in die <strong>Adressleiste</strong> (langer Balken ganz oben).</p>
+</li>
+<li>
+<p>Tippen Sie: <code>www.pro-senectute.ch</code></p>
+</li>
+<li>
+<p>Drücken Sie <kbd>Enter</kbd>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Webseite von Pro Senectute wird geladen.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Schauen Sie sich die Seite an – scrollen Sie mit dem Mausrad oder zwei Fingern auf dem Trackpad nach unten.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Trackpad: Streichen Sie mit zwei Fingern nach unten, um die Seite nach unten zu scrollen.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_zusammenfassung_tag_1_11501200">2.6. Zusammenfassung Tag 1 (11:50–12:00)</h3>
+<div class="paragraph">
+<p><strong>Was haben wir heute gelernt?</strong></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p><i class="fa fa-check-square-o"></i> Desktop, Menüleiste, Dock und Launchpad kennen</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Apps starten und im Dock behalten</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Fenster öffnen, verschieben, teilen und wechseln</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> WLAN prüfen und Webseite aufrufen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Hausaufgabe (freiwillig):</strong> Öffnen Sie zu Hause das Launchpad und starten Sie zwei verschiedene Apps.</p>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tag_2_dateien_verwalten_und_speichern">3. Tag 2 – Dateien verwalten und speichern</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_rückblick_tag_1_09000915">3.1. Rückblick Tag 1 (09:00–09:15)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Fragen zu Tag 1 klären</p>
+</li>
+<li>
+<p>Kurze Wiederholung: Desktop, Launchpad, Fenster, WLAN</p>
+</li>
+<li>
+<p>Tagesprogramm vorstellen</p>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_modul_4_finder_und_ordner_09151030">3.2. Modul 4: Finder und Ordner (09:15–10:30)</h3>
+<div class="sect3">
+<h4 id="_theorie_finder">3.2.1. Theorie: Finder</h4>
+<div class="paragraph">
+<p>Der <strong>Finder</strong> ist das Programm, mit dem Sie Ihre Dateien und Ordner verwalten. Er lässt sich öffnen über:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Das <strong>Smiley-Symbol</strong> ganz links im Dock (immer sichtbar)</p>
+</li>
+<li>
+<p>Das Finder-Symbol ist immer im Dock – es kann nicht entfernt werden</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Wichtige Begriffe:</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Volume / Laufwerk:</strong> Speichermedium (z. B. Macintosh HD = Festplatte, USB-Stick)</p>
+</li>
+<li>
+<p><strong>Ordner:</strong> Enthält Dateien oder weitere Ordner – wie ein Aktenordner</p>
+</li>
+<li>
+<p><strong>Datei:</strong> Ein einzelnes Dokument, Bild, Musikstück usw.</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Im Finder sehen Sie links die <strong>Seitenleiste</strong> (Favoriten, iCloud Drive, Geräte) und rechts den <strong>Inhalt</strong> des aktuell geöffneten Ordners.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_theorie_dateien_und_ordner_verwalten">3.2.2. Theorie: Dateien und Ordner verwalten</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 42.8571%;">
+<col style="width: 57.1429%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Aktion</th>
+<th class="tableblock halign-left valign-top">So geht&#8217;s</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Neuen Ordner erstellen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl+Klick im leeren Bereich → <strong>Neuer Ordner</strong> (oder <span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd></span>)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ordner / Datei umbenennen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Einmal klicken → <kbd>Enter</kbd> → neuen Namen eingeben → <kbd>Enter</kbd></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datei kopieren</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl+Klick → <strong>Kopieren</strong> → Zielordner öffnen → <span class="keyseq"><kbd>⌘</kbd>+<kbd>V</kbd></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datei verschieben</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datei mit der Maus in den Zielordner ziehen (oder <span class="keyseq"><kbd>⌘C] → Ziel → kbd:[⌘⌥</kbd>+<kbd>V</kbd></span>)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datei löschen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl+Klick → <strong>In den Papierkorb legen</strong> (oder <span class="keyseq"><kbd>⌘</kbd>+<kbd>Entf</kbd></span>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_theorie_papierkorb">3.2.3. Theorie: Papierkorb</h4>
+<div class="paragraph">
+<p>Gelöschte Dateien landen zuerst im <strong>Papierkorb</strong> im Dock – sie sind noch nicht endgültig weg!</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Wiederherstellen:</strong> Papierkorb öffnen → Datei Ctrl+klicken → <strong>Zurücklegen</strong></p>
+</li>
+<li>
+<p><strong>Endgültig löschen:</strong> Ctrl+Klick auf Papierkorb im Dock → <strong>Papierkorb leeren</strong> (nicht rückgängig zu machen!)</p>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_10_ordner_dokumente_öffnen">3.2.4. Übung 10 – Ordner «Dokumente» öffnen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Den Finder öffnen und zum Ordner «Dokumente» navigieren.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie auf das <strong>Finder-Symbol</strong> im Dock (lächelndes Gesicht).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Finder öffnet sich.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Schauen Sie sich die linke Seitenleiste an.</p>
+</li>
+<li>
+<p>Klicken Sie auf <strong>Dokumente</strong> (unter «Favoriten»).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Inhalt des Ordners «Dokumente» wird rechts angezeigt.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Notieren Sie, wie viele Dateien oder Ordner sich darin befinden.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_11_neuen_ordner_kurs_erstellen">3.2.5. Übung 11 – Neuen Ordner «Kurs» erstellen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Einen neuen Ordner anlegen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Stellen Sie sicher, dass Sie im Ordner <strong>Dokumente</strong> sind.</p>
+</li>
+<li>
+<p>Klicken Sie mit der <strong>rechten Maustaste</strong> (oder Ctrl+Klick) in den leeren Bereich rechts.</p>
+</li>
+<li>
+<p>Wählen Sie <strong>Neuer Ordner</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ein neuer Ordner erscheint mit dem Namen «Unbenannter Ordner» (blau markiert).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Tippen Sie sofort: <code>Kurs</code></p>
+</li>
+<li>
+<p>Drücken Sie <kbd>Enter</kbd>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Ordner heisst jetzt «Kurs».</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Alternativ: <span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd></span> erstellt sofort einen neuen Ordner.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_12_datei_in_den_ordner_kurs_kopieren">3.2.6. Übung 12 – Datei in den Ordner «Kurs» kopieren</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Eine vorhandene Datei kopieren und in einem anderen Ordner einfügen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Bleiben Sie im Ordner <strong>Dokumente</strong>.</p>
+</li>
+<li>
+<p>Klicken Sie mit der <strong>rechten Maustaste</strong> (Ctrl+Klick) auf eine beliebige Datei (falls vorhanden).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Falls keine Datei vorhanden: Der Kursleiter stellt eine Beispieldatei bereit.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Wählen Sie <strong>Kopieren</strong>.</p>
+</li>
+<li>
+<p>Doppelklicken Sie auf den Ordner <strong>Kurs</strong>, um ihn zu öffnen.</p>
+</li>
+<li>
+<p>Drücken Sie <span class="keyseq"><kbd>⌘</kbd>+<kbd>V</kbd></span>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Datei erscheint nun im Ordner «Kurs».</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_13_datei_umbenennen">3.2.7. Übung 13 – Datei umbenennen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Den Namen einer Datei ändern.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie <strong>einmal</strong> auf die soeben eingefügte Datei im Ordner «Kurs».</p>
+</li>
+<li>
+<p>Drücken Sie <kbd>Enter</kbd>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Dateiname wird blau markiert und ist bearbeitbar.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Tippen Sie den neuen Namen: <code>Mein erstes Dokument</code></p>
+</li>
+<li>
+<p>Drücken Sie <kbd>Enter</kbd>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Die Dateiendung (z. B. <code>.txt</code>, <code>.docx</code>) muss nicht geändert werden. macOS warnt Sie, falls Sie sie versehentlich ändern möchten.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_14_datei_löschen_und_wiederherstellen">3.2.8. Übung 14 – Datei löschen und wiederherstellen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Eine Datei in den Papierkorb verschieben und danach wiederherstellen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie mit der <strong>rechten Maustaste</strong> (Ctrl+Klick) auf <strong>Mein erstes Dokument</strong> im Ordner «Kurs».</p>
+</li>
+<li>
+<p>Wählen Sie <strong>In den Papierkorb legen</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Datei verschwindet aus dem Ordner.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Schliessen Sie den Finder (rotes Knöpfchen oben links).</p>
+</li>
+<li>
+<p>Klicken Sie im Dock auf den <strong>Papierkorb</strong> (Mülleimer-Symbol rechts im Dock).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die gelöschte Datei ist sichtbar.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie mit der <strong>rechten Maustaste</strong> auf die Datei.</p>
+</li>
+<li>
+<p>Wählen Sie <strong>Zurücklegen</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Datei kehrt in den Ordner «Kurs» zurück.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_pause_10301045_2">3.3. Pause (10:30–10:45)</h3>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_modul_5_dokumente_erstellen_und_speichern_10451130">3.4. Modul 5: Dokumente erstellen und speichern (10:45–11:30)</h3>
+<div class="sect3">
+<h4 id="_theorie_textedit">3.4.1. Theorie: TextEdit</h4>
+<div class="paragraph">
+<p><strong>TextEdit</strong> ist ein einfaches Textprogramm von macOS. Es eignet sich für einfache Texte.</p>
+</div>
+<div class="paragraph">
+<p>Öffnen über: Dock → TextEdit-Symbol (oder Launchpad → «TextEdit» eingeben)</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Beim ersten Öffnen fragt TextEdit, ob ein neues Dokument erstellt oder ein vorhandenes geöffnet werden soll. Klicken Sie auf <strong>Neues Dokument</strong>.</p>
+</div>
+<div class="paragraph">
+<p>Für formatierte Dokumente (Briefe mit Schriftarten, Tabellen usw.) empfiehlt sich <strong>Pages</strong> (kostenlos auf dem Mac). Im Kurs verwenden wir TextEdit, weil er einfacher zu bedienen ist.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_theorie_sichern_dialog">3.4.2. Theorie: Sichern-Dialog</h4>
+<div class="paragraph">
+<p>Beim ersten Speichern einer Datei erscheint der <strong>Sichern-Dialog</strong>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Sichern unter:</strong> Namen für die Datei eingeben</p>
+</li>
+<li>
+<p><strong>Ort:</strong> Ordner wählen, wo die Datei abgelegt wird (Klick auf ▶ zum Aufklappen)</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 42.8571%;">
+<col style="width: 57.1429%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Speicherort</th>
+<th class="tableblock halign-left valign-top">Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Dokumente</strong> (lokal)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nur auf diesem Mac gespeichert</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>iCloud Drive</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In der Cloud – auch von anderen Geräten zugänglich</p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_15_kurzen_brief_in_textedit_schreiben">3.4.3. Übung 15 – Kurzen Brief in TextEdit schreiben</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> TextEdit öffnen und einen Text eingeben.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie auf das <strong>TextEdit-Symbol</strong> im Dock.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Falls der Dialog erscheint: Klicken Sie auf <strong>Neues Dokument</strong>.</p>
+</li>
+<li>
+<p>Ein leeres weisses Textfenster öffnet sich.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Tippen Sie folgenden Text (Datum anpassen):</p>
+<div class="listingblock">
+<div class="content">
+<pre>Luzern, 20. März 2026
+
+Liebe Familie
+
+Ich besuche heute einen macOS Kurs bei Pro Senectute.
+Ich lerne, wie man Dateien speichert und den Mac bedient.
+
+Viele Grüsse
+[Ihr Name]</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Lassen Sie TextEdit geöffnet für die nächste Übung.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_16_brief_speichern">3.4.4. Übung 16 – Brief speichern</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Den Brief unter «Dokumente» speichern.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Klicken Sie in der Menüleiste auf <strong>Ablage</strong> → <strong>Sichern unter…</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Sichern-Dialog öffnet sich.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie auf das kleine Dreieck (▶) neben dem Dateinamenfeld, um alle Ordner zu sehen.</p>
+</li>
+<li>
+<p>Klicken Sie links auf <strong>Dokumente</strong>.</p>
+</li>
+<li>
+<p>Doppelklicken Sie auf den Ordner <strong>Kurs</strong>.</p>
+</li>
+<li>
+<p>Löschen Sie den vorgeschlagenen Dateinamen und tippen Sie: <code>Brief</code></p>
+</li>
+<li>
+<p>Klicken Sie auf <strong>Sichern</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Datei wird als <code>Brief.rtf</code> im Ordner «Kurs» gespeichert.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Mit <span class="keyseq"><kbd>⌘</kbd>+<kbd>S</kbd></span> können Sie eine bereits gespeicherte Datei schnell aktualisieren (ohne Dialog).</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_17_brief_schliessen_und_wieder_öffnen">3.4.5. Übung 17 – Brief schliessen und wieder öffnen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> TextEdit schliessen und die Datei erneut öffnen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Schliessen Sie TextEdit mit dem <strong>roten Knöpfchen</strong> oben links.</p>
+</li>
+<li>
+<p>Öffnen Sie den <strong>Finder</strong>.</p>
+</li>
+<li>
+<p>Navigieren Sie zu <strong>Dokumente</strong> → <strong>Kurs</strong>.</p>
+</li>
+<li>
+<p>Doppelklicken Sie auf <strong>Brief.rtf</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>TextEdit öffnet sich und zeigt den Brief an.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Fügen Sie eine neue Zeile am Ende hinzu: «P.S. Ich übe fleissig!»</p>
+</li>
+<li>
+<p>Speichern Sie mit <span class="keyseq"><kbd>⌘</kbd>+<kbd>S</kbd></span>.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_modul_6_icloud_drive_dokumente_in_der_cloud_11301200">3.5. Modul 6: iCloud Drive – Dokumente in der Cloud (11:30–12:00)</h3>
+<div class="sect3">
+<h4 id="_theorie_was_ist_icloud_drive">3.5.1. Theorie: Was ist iCloud Drive?</h4>
+<div class="paragraph">
+<p><strong>iCloud Drive</strong> ist ein <strong>Cloud-Speicher</strong> von Apple. Das bedeutet:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ihre Dateien werden auf Apples Servern gespeichert</p>
+</li>
+<li>
+<p>Sie können von jedem Gerät (Mac, iPhone, iPad) darauf zugreifen</p>
+</li>
+<li>
+<p>Dateien sind vor Datenverlust (z. B. bei Computerausfall) geschützt</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>«Cloud» bedeutet «Wolke» – Ihre Dateien sind sozusagen «in der Wolke» gespeichert, also im Internet, nicht nur auf Ihrem Mac.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>iCloud Drive ist in macOS eingebaut. Im <strong>Finder</strong> erscheint iCloud Drive als eigener Bereich in der linken Seitenleiste.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft beim Einrichten, falls noch keine vorhanden ist.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_18_ordner_kurs_nach_icloud_drive_kopieren">3.5.2. Übung 18 – Ordner «Kurs» nach iCloud Drive kopieren</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> Einen Ordner in iCloud Drive speichern.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Öffnen Sie den <strong>Finder</strong>.</p>
+</li>
+<li>
+<p>Navigieren Sie zu <strong>Dokumente</strong> → klicken Sie <strong>einmal</strong> auf den Ordner <strong>Kurs</strong>.</p>
+</li>
+<li>
+<p>Drücken Sie <span class="keyseq"><kbd>⌘</kbd>+<kbd>C</kbd></span> (Kopieren).</p>
+</li>
+<li>
+<p>Klicken Sie links in der Seitenleiste auf <strong>iCloud Drive</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Inhalt Ihres iCloud Drive wird angezeigt.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Drücken Sie <span class="keyseq"><kbd>⌘</kbd>+<kbd>V</kbd></span> (Einfügen).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Der Ordner «Kurs» wird in iCloud Drive kopiert.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Warten Sie, bis das Wolken-Symbol neben dem Ordner verschwindet.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Erst dann ist der Ordner vollständig in die Cloud hochgeladen.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_übung_19_icloud_drive_im_browser_aufrufen">3.5.3. Übung 19 – iCloud Drive im Browser aufrufen</h4>
+<div class="paragraph">
+<p><strong>Ziel:</strong> iCloud Drive über den Browser aufrufen und die hochgeladene Datei sehen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Öffnen Sie <strong>Safari</strong>.</p>
+</li>
+<li>
+<p>Klicken Sie in die Adressleiste und tippen Sie: <code>icloud.com</code></p>
+</li>
+<li>
+<p>Drücken Sie <kbd>Enter</kbd>.</p>
+</li>
+<li>
+<p>Melden Sie sich mit Ihrer Apple-ID an (E-Mail und Passwort).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Die iCloud-Webseite zeigt Ihre Apps und Dateien.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Klicken Sie auf <strong>iCloud Drive</strong>.</p>
+</li>
+<li>
+<p>Suchen Sie den Ordner <strong>Kurs</strong> – er sollte sichtbar sein.</p>
+</li>
+<li>
+<p>Klicken Sie auf den Ordner, um ihn zu öffnen und <strong>Brief.rtf</strong> zu sehen.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und auf Ihre Dateien zugreifen möchten.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_abschluss_11501200">3.6. Abschluss (11:50–12:00)</h3>
+<div class="paragraph">
+<p><strong>Was haben wir heute und in beiden Kurstagen gelernt?</strong></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p><i class="fa fa-check-square-o"></i> Desktop, Menüleiste, Dock und Launchpad bedienen</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Fenster verwalten und zwischen Apps wechseln</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> WLAN verbinden und im Internet surfen</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Ordner und Dateien im Finder verwalten</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Dokument erstellen, speichern und wieder öffnen</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> Ordner in iCloud Drive speichern und im Browser aufrufen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Herzlichen Glückwunsch – Sie haben den Kurs erfolgreich abgeschlossen!</strong></p>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_nützliche_tastenkürzel">4. Nützliche Tastenkürzel</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Tastenkürzel</th>
+<th class="tableblock halign-left valign-top">Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>Leertaste</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Spotlight öffnen (Apps und Dateien suchen)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>Tab</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zwischen geöffneten Apps wechseln</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>W</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktuelles Fenster schliessen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>Q</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktuelle App beenden</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>M</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fenster ins Dock minimieren</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>C</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kopieren</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>V</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Einfügen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>X</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ausschneiden</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>Z</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rückgängig machen (letzten Schritt widerrufen)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>S</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sichern (Speichern)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Neues Fenster / Neues Dokument</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Neuen Ordner erstellen (im Finder)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="keyseq"><kbd>⌘</kbd>+<kbd>Entf</kbd></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ausgewählte Datei in den Papierkorb legen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><kbd>Enter</kbd></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ausgewählte Datei / Ordner umbenennen (im Finder)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><kbd>F4</kbd></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Launchpad öffnen</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2026-03-11 18:19:13 UTC
+</div>
+</div>
+</body>
+</html>

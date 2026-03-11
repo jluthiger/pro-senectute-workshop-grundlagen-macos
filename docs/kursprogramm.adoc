@@ -1,0 +1,689 @@
+= macOS Grundkurs – Kursprogramm
+:author_1: Pro Senectute Luzern
+:author_2: Jürg Luthiger
+:revnumber: 1.0
+
+:lang: de
+:toc:
+:toc-title: Inhaltsverzeichnis
+:toclevels: 3
+:icons: font
+:experimental:
+:numbered:
+
+== Kursüberblick
+
+=== Zielgruppe
+
+Seniorinnen und Senioren mit kaum oder keiner Mac-Erfahrung, die macOS grundlegend kennenlernen möchten.
+
+=== Lernziele
+
+Nach dem Kurs können die Teilnehmenden:
+
+* Den macOS-Desktop, das Dock und die Menüleiste selbstständig bedienen
+* Apps über das Launchpad starten und Fenster verwalten
+* Eine WLAN-Verbindung herstellen und den Browser öffnen
+* Ordner und Dateien im Finder anlegen und verwalten
+* Dokumente erstellen, speichern und wieder öffnen
+* Dateien in iCloud Drive ablegen
+
+=== Voraussetzungen
+
+* Kein Vorwissen nötig
+* Grundlegende Handhabung einer Maus oder des Trackpads (bewegen, klicken) hilfreich
+
+=== Zeitplan
+
+[cols="^1,4,^1", options="header"]
+|===
+| Tag | Inhalt | Zeit
+
+| *Tag 1*
+| macOS kennenlernen (Desktop, Fenster, WLAN)
+| 09:00–12:00
+
+| *Tag 2*
+| Dateien verwalten und speichern (Finder, TextEdit, iCloud)
+| 09:00–12:00
+|===
+
+---
+
+== Tag 1 – macOS kennenlernen
+
+=== Begrüssung und Einführung (09:00–09:15)
+
+* Vorstellungsrunde: Name und Erwartungen
+* Kursüberblick: Was lernen wir heute und morgen?
+* Praktischer Hinweis: Ruhig Fragen stellen, es gibt kein «Zu-langsam»
+
+---
+
+=== Modul 1: macOS Grundlagen (09:15–10:30)
+
+==== Theorie: Desktop
+
+Der *Desktop* ist der Startbildschirm von macOS – wie eine digitale Arbeitsfläche.
+
+[TIP]
+====
+*Wichtige Begriffe:*
+
+* *Symbol (Icon):* Kleines Bild, das ein Programm oder eine Datei darstellt
+* *Hintergrundbild (Wallpaper):* Das Bild, das den Desktop ziert
+* *Uhr:* Wird oben rechts in der Menüleiste angezeigt
+====
+
+==== Theorie: Menüleiste
+
+Die *Menüleiste* ist die Leiste am *oberen* Bildschirmrand. Sie enthält:
+
+* *Apple-Menü* (🍎 links oben) – Systemeinstellungen, Neustart, Ausschalten
+* *App-Menüs* – wechseln je nach aktiver App (Ablage, Bearbeiten usw.)
+* *Statusleiste* – rechts oben: Uhr, WLAN, Lautstärke, Akku
+
+==== Theorie: Dock
+
+Das *Dock* ist die Leiste am unteren Bildschirmrand. Es enthält:
+
+* Häufig verwendete Apps als Symbole
+* Gerade geöffnete Apps (kleiner Punkt unter dem Symbol)
+* Rechts vom Trennstrich: Papierkorb und zuletzt geöffnete Dateien
+
+[TIP]
+====
+Apps können ins Dock gezogen oder daraus entfernt werden. Durch Rechtsklick (oder Ctrl+Klick) auf ein Dock-Symbol erscheinen weitere Optionen.
+====
+
+==== Theorie: Launchpad
+
+Das *Launchpad* zeigt alle installierten Apps in einer Übersicht:
+
+* Öffnen über: Launchpad-Symbol im Dock (Raketen-Symbol) oder Tastenkombination kbd:[F4]
+* Apps können gesucht werden (Suchfeld oben)
+* Apps können zu Ordnern gruppiert werden (Symbol auf Symbol ziehen)
+
+---
+
+==== Übung 1 – Desktop erkunden
+
+*Ziel:* Den Desktop kennenlernen und 5 Elemente benennen.
+
+. Schauen Sie sich den Desktop genau an.
+. Zeigen Sie mit der Maus auf ein Symbol – es erscheint ein kleiner Hinweistext.
+. Suchen Sie diese 5 Dinge und nennen Sie sie laut:
+  ** Die Menüleiste (ganz oben)
+  ** Das Apple-Symbol (🍎 oben links)
+  ** Das Dock (unten)
+  ** Die Uhr (oben rechts)
+  ** Den Papierkorb (rechts im Dock)
+
+[NOTE]
+====
+Wenn etwas nicht sichtbar ist, kann der Kursleiter helfen.
+====
+
+---
+
+==== Übung 2 – Launchpad öffnen und Taschenrechner starten
+
+*Ziel:* Das Launchpad bedienen und ein Programm starten.
+
+. Klicken Sie auf das *Launchpad-Symbol* im Dock (Rakete).
+  ** Das Launchpad öffnet sich – alle Apps sind sichtbar.
+. Schauen Sie sich die App-Symbole an.
+. Klicken Sie oben in das Suchfeld und tippen Sie «Rechner».
+. Klicken Sie auf *Rechner* in den Ergebnissen.
+  ** Der Rechner öffnet sich als Fenster.
+. Geben Sie eine einfache Rechnung ein, z. B. kbd:[5] kbd:[+] kbd:[3] kbd:[=].
+
+---
+
+==== Übung 3 – App ins Dock hinzufügen
+
+*Ziel:* Eine App dauerhaft ins Dock aufnehmen.
+
+. Öffnen Sie das Launchpad.
+. Suchen Sie die App *TextEdit* (Texteditorsymbol).
+. Klicken Sie auf *TextEdit*, um die App zu starten.
+  ** Im Dock erscheint das TextEdit-Symbol mit einem Punkt darunter.
+. Klicken Sie mit *Ctrl+Klick* (oder rechte Maustaste) auf das *TextEdit-Symbol im Dock*.
+. Wählen Sie *Optionen* → *Im Dock behalten*.
+  ** Das Symbol bleibt auch nach dem Beenden im Dock.
+
+[TIP]
+====
+Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf das Symbol → *Aus Dock entfernen*.
+====
+
+---
+
+==== Übung 4 – Uhrzeit und Datum ablesen
+
+*Ziel:* Uhrzeit und Datum in der Menüleiste lesen.
+
+. Schauen Sie in die obere rechte Ecke des Bildschirms.
+. Lesen Sie die angezeigte Uhrzeit vor.
+. Klicken Sie einmal auf die Uhrzeit.
+  ** Ein kleiner Kalender wird eingeblendet.
+. Klicken Sie auf *Datum & Uhrzeit-Einstellungen öffnen*, um mehr zu sehen.
+. Drücken Sie kbd:[⌘+W] oder klicken Sie das rote Knöpfchen, um das Fenster zu schliessen.
+
+---
+
+=== Pause (10:30–10:45)
+
+---
+
+=== Modul 2: Mit Fenstern arbeiten (10:45–11:30)
+
+==== Theorie: Fenster verstehen
+
+Jedes Programm öffnet sich in einem *Fenster*. Oben links im Fenster gibt es drei farbige Knöpfchen:
+
+[cols="^1,3", options="header"]
+|===
+| Knopf | Funktion
+
+| 🔴 Rot
+| *Schliessen:* Fenster wird geschlossen (App läuft evtl. weiter)
+
+| 🟡 Gelb
+| *Minimieren:* Fenster verschwindet ins Dock, ist aber noch offen
+
+| 🟢 Grün
+| *Vollbild / Split View:* Fenster füllt den ganzen Bildschirm (oder teilt ihn)
+|===
+
+Ein Fenster kann auch mit der Maus *verschoben* werden: Titelleiste anfassen und ziehen.
+
+Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit der Maus zieht.
+
+[TIP]
+====
+*Split View:* Halten Sie den grünen Knopf gedrückt – macOS schlägt vor, den Bildschirm mit einem zweiten Fenster zu teilen.
+====
+
+---
+
+==== Übung 5 – Rechner öffnen und verschieben
+
+*Ziel:* Ein Fenster verschieben und die Grösse ändern.
+
+. Starten Sie den *Rechner* (Launchpad → Rechner).
+. Klicken Sie auf die *Titelleiste* (die obere Leiste des Fensters) und halten Sie die Maustaste gedrückt.
+. Ziehen Sie das Fenster in die Mitte des Bildschirms und lassen Sie los.
+. Zeigen Sie mit der Maus auf eine *Fensterecke*, bis ein Doppelpfeil erscheint.
+. Ziehen Sie die Ecke, um das Fenster grösser oder kleiner zu machen.
+
+---
+
+==== Übung 6 – Split View (Bildschirm teilen)
+
+*Ziel:* Zwei Fenster nebeneinander anzeigen.
+
+. Öffnen Sie *Safari* (Globus-Symbol im Dock).
+. Halten Sie den *grünen Knopf* von Safari gedrückt.
+  ** Ein Menü erscheint mit «Fenster links im Splitscreen platzieren» usw.
+. Wählen Sie *Fenster links im Splitscreen platzieren*.
+  ** Safari füllt die linke Hälfte.
+. Klicken Sie rechts auf *Rechner*.
+  ** Der Rechner füllt die rechte Hälfte.
+. Sie sehen jetzt zwei Fenster nebeneinander.
+
+[TIP]
+====
+Um den Splitscreen zu beenden, drücken Sie kbd:[Escape] oder klicken Sie erneut auf den grünen Knopf.
+====
+
+---
+
+==== Übung 7 – Zwischen Apps wechseln
+
+*Ziel:* Zwischen zwei offenen Apps hin- und herwechseln.
+
+. Stellen Sie sicher, dass Rechner und Safari geöffnet sind.
+. Klicken Sie im *Dock* auf das Rechner-Symbol.
+  ** Der Rechner wird aktiv (in den Vordergrund geholt).
+. Klicken Sie im Dock auf das *Safari-Symbol*.
+  ** Safari kommt in den Vordergrund.
+. Drücken Sie kbd:[⌘+Tab] (Command-Taste halten, Tab-Taste drücken).
+  ** Es erscheint eine Übersicht aller offenen Apps.
+. Halten Sie kbd:[⌘] gedrückt und drücken Sie nochmals kbd:[Tab], um zur gewünschten App zu wechseln.
+
+---
+
+=== Modul 3: WLAN und Internet (11:30–12:00)
+
+==== Theorie: WLAN-Verbindung
+
+Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Funkwellen). Darüber können Sie:
+
+* Sehen, ob Sie verbunden sind
+* Sich mit einem WLAN-Netzwerk verbinden
+
+[TIP]
+====
+*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter oder steht auf Ihrem Router.
+====
+
+==== Theorie: Safari
+
+*Safari* ist der eingebaute *Webbrowser* von macOS. Mit ihm rufen Sie Webseiten auf:
+
+. Safari öffnen (Symbol im Dock)
+. Adresse in die *Adressleiste* (oben) eintippen
+. kbd:[Enter] drücken
+
+---
+
+==== Übung 8 – WLAN-Status prüfen
+
+*Ziel:* WLAN-Symbol finden und Verbindungsstatus prüfen.
+
+. Schauen Sie oben rechts in die Menüleiste.
+. Klicken Sie auf das *WLAN-Symbol* (Funkwellen-Symbol).
+  ** Es öffnet sich ein Menü mit verfügbaren Netzwerken.
+. Prüfen Sie: Ist ein Netzwerk mit Häkchen markiert? Das ist die aktuelle Verbindung.
+. Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.
+  ** Ein Passwort-Fenster erscheint.
+. Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf *Verbinden*.
+. Drücken Sie kbd:[Escape], um das Menü zu schliessen.
+
+---
+
+==== Übung 9 – Webseite aufrufen
+
+*Ziel:* Den Browser öffnen und eine Webseite besuchen.
+
+. Klicken Sie auf das *Safari-Symbol* im Dock (blauer Globus).
+. Safari öffnet sich. Klicken Sie in die *Adressleiste* (langer Balken ganz oben).
+. Tippen Sie: `www.pro-senectute.ch`
+. Drücken Sie kbd:[Enter].
+  ** Die Webseite von Pro Senectute wird geladen.
+. Schauen Sie sich die Seite an – scrollen Sie mit dem Mausrad oder zwei Fingern auf dem Trackpad nach unten.
+
+[NOTE]
+====
+Trackpad: Streichen Sie mit zwei Fingern nach unten, um die Seite nach unten zu scrollen.
+====
+
+---
+
+=== Zusammenfassung Tag 1 (11:50–12:00)
+
+*Was haben wir heute gelernt?*
+
+* [x] Desktop, Menüleiste, Dock und Launchpad kennen
+* [x] Apps starten und im Dock behalten
+* [x] Fenster öffnen, verschieben, teilen und wechseln
+* [x] WLAN prüfen und Webseite aufrufen
+
+*Hausaufgabe (freiwillig):* Öffnen Sie zu Hause das Launchpad und starten Sie zwei verschiedene Apps.
+
+---
+
+== Tag 2 – Dateien verwalten und speichern
+
+=== Rückblick Tag 1 (09:00–09:15)
+
+* Fragen zu Tag 1 klären
+* Kurze Wiederholung: Desktop, Launchpad, Fenster, WLAN
+* Tagesprogramm vorstellen
+
+---
+
+=== Modul 4: Finder und Ordner (09:15–10:30)
+
+==== Theorie: Finder
+
+Der *Finder* ist das Programm, mit dem Sie Ihre Dateien und Ordner verwalten. Er lässt sich öffnen über:
+
+* Das *Smiley-Symbol* ganz links im Dock (immer sichtbar)
+* Das Finder-Symbol ist immer im Dock – es kann nicht entfernt werden
+
+[TIP]
+====
+*Wichtige Begriffe:*
+
+* *Volume / Laufwerk:* Speichermedium (z. B. Macintosh HD = Festplatte, USB-Stick)
+* *Ordner:* Enthält Dateien oder weitere Ordner – wie ein Aktenordner
+* *Datei:* Ein einzelnes Dokument, Bild, Musikstück usw.
+====
+
+Im Finder sehen Sie links die *Seitenleiste* (Favoriten, iCloud Drive, Geräte) und rechts den *Inhalt* des aktuell geöffneten Ordners.
+
+==== Theorie: Dateien und Ordner verwalten
+
+[cols="3,4", options="header"]
+|===
+| Aktion | So geht's
+
+| Neuen Ordner erstellen
+| Ctrl+Klick im leeren Bereich → *Neuer Ordner* (oder kbd:[⌘+⇧+N])
+
+| Ordner / Datei umbenennen
+| Einmal klicken → kbd:[Enter] → neuen Namen eingeben → kbd:[Enter]
+
+| Datei kopieren
+| Ctrl+Klick → *Kopieren* → Zielordner öffnen → kbd:[⌘+V]
+
+| Datei verschieben
+| Datei mit der Maus in den Zielordner ziehen (oder kbd:[⌘+C] → Ziel → kbd:[⌘+⌥+V])
+
+| Datei löschen
+| Ctrl+Klick → *In den Papierkorb legen* (oder kbd:[⌘+Entf])
+|===
+
+==== Theorie: Papierkorb
+
+Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht endgültig weg!
+
+* *Wiederherstellen:* Papierkorb öffnen → Datei Ctrl+klicken → *Zurücklegen*
+* *Endgültig löschen:* Ctrl+Klick auf Papierkorb im Dock → *Papierkorb leeren* (nicht rückgängig zu machen!)
+
+---
+
+==== Übung 10 – Ordner «Dokumente» öffnen
+
+*Ziel:* Den Finder öffnen und zum Ordner «Dokumente» navigieren.
+
+. Klicken Sie auf das *Finder-Symbol* im Dock (lächelndes Gesicht).
+  ** Der Finder öffnet sich.
+. Schauen Sie sich die linke Seitenleiste an.
+. Klicken Sie auf *Dokumente* (unter «Favoriten»).
+  ** Der Inhalt des Ordners «Dokumente» wird rechts angezeigt.
+. Notieren Sie, wie viele Dateien oder Ordner sich darin befinden.
+
+---
+
+==== Übung 11 – Neuen Ordner «Kurs» erstellen
+
+*Ziel:* Einen neuen Ordner anlegen.
+
+. Stellen Sie sicher, dass Sie im Ordner *Dokumente* sind.
+. Klicken Sie mit der *rechten Maustaste* (oder Ctrl+Klick) in den leeren Bereich rechts.
+. Wählen Sie *Neuer Ordner*.
+  ** Ein neuer Ordner erscheint mit dem Namen «Unbenannter Ordner» (blau markiert).
+. Tippen Sie sofort: `Kurs`
+. Drücken Sie kbd:[Enter].
+  ** Der Ordner heisst jetzt «Kurs».
+
+[TIP]
+====
+Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
+====
+
+---
+
+==== Übung 12 – Datei in den Ordner «Kurs» kopieren
+
+*Ziel:* Eine vorhandene Datei kopieren und in einem anderen Ordner einfügen.
+
+. Bleiben Sie im Ordner *Dokumente*.
+. Klicken Sie mit der *rechten Maustaste* (Ctrl+Klick) auf eine beliebige Datei (falls vorhanden).
+  ** Falls keine Datei vorhanden: Der Kursleiter stellt eine Beispieldatei bereit.
+. Wählen Sie *Kopieren*.
+. Doppelklicken Sie auf den Ordner *Kurs*, um ihn zu öffnen.
+. Drücken Sie kbd:[⌘+V].
+  ** Die Datei erscheint nun im Ordner «Kurs».
+
+---
+
+==== Übung 13 – Datei umbenennen
+
+*Ziel:* Den Namen einer Datei ändern.
+
+. Klicken Sie *einmal* auf die soeben eingefügte Datei im Ordner «Kurs».
+. Drücken Sie kbd:[Enter].
+  ** Der Dateiname wird blau markiert und ist bearbeitbar.
+. Tippen Sie den neuen Namen: `Mein erstes Dokument`
+. Drücken Sie kbd:[Enter].
+
+[NOTE]
+====
+Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt Sie, falls Sie sie versehentlich ändern möchten.
+====
+
+---
+
+==== Übung 14 – Datei löschen und wiederherstellen
+
+*Ziel:* Eine Datei in den Papierkorb verschieben und danach wiederherstellen.
+
+. Klicken Sie mit der *rechten Maustaste* (Ctrl+Klick) auf *Mein erstes Dokument* im Ordner «Kurs».
+. Wählen Sie *In den Papierkorb legen*.
+  ** Die Datei verschwindet aus dem Ordner.
+. Schliessen Sie den Finder (rotes Knöpfchen oben links).
+. Klicken Sie im Dock auf den *Papierkorb* (Mülleimer-Symbol rechts im Dock).
+  ** Die gelöschte Datei ist sichtbar.
+. Klicken Sie mit der *rechten Maustaste* auf die Datei.
+. Wählen Sie *Zurücklegen*.
+  ** Die Datei kehrt in den Ordner «Kurs» zurück.
+
+---
+
+=== Pause (10:30–10:45)
+
+---
+
+=== Modul 5: Dokumente erstellen und speichern (10:45–11:30)
+
+==== Theorie: TextEdit
+
+*TextEdit* ist ein einfaches Textprogramm von macOS. Es eignet sich für einfache Texte.
+
+Öffnen über: Dock → TextEdit-Symbol (oder Launchpad → «TextEdit» eingeben)
+
+[TIP]
+====
+Beim ersten Öffnen fragt TextEdit, ob ein neues Dokument erstellt oder ein vorhandenes geöffnet werden soll. Klicken Sie auf *Neues Dokument*.
+
+Für formatierte Dokumente (Briefe mit Schriftarten, Tabellen usw.) empfiehlt sich *Pages* (kostenlos auf dem Mac). Im Kurs verwenden wir TextEdit, weil er einfacher zu bedienen ist.
+====
+
+==== Theorie: Sichern-Dialog
+
+Beim ersten Speichern einer Datei erscheint der *Sichern-Dialog*:
+
+* *Sichern unter:* Namen für die Datei eingeben
+* *Ort:* Ordner wählen, wo die Datei abgelegt wird (Klick auf ▶ zum Aufklappen)
+
+[cols="3,4", options="header"]
+|===
+| Speicherort | Beschreibung
+
+| *Dokumente* (lokal)
+| Nur auf diesem Mac gespeichert
+
+| *iCloud Drive*
+| In der Cloud – auch von anderen Geräten zugänglich
+|===
+
+---
+
+==== Übung 15 – Kurzen Brief in TextEdit schreiben
+
+*Ziel:* TextEdit öffnen und einen Text eingeben.
+
+. Klicken Sie auf das *TextEdit-Symbol* im Dock.
+  ** Falls der Dialog erscheint: Klicken Sie auf *Neues Dokument*.
+  ** Ein leeres weisses Textfenster öffnet sich.
+. Tippen Sie folgenden Text (Datum anpassen):
++
+----
+Luzern, 20. März 2026
+
+Liebe Familie
+
+Ich besuche heute einen macOS Kurs bei Pro Senectute.
+Ich lerne, wie man Dateien speichert und den Mac bedient.
+
+Viele Grüsse
+[Ihr Name]
+----
+. Lassen Sie TextEdit geöffnet für die nächste Übung.
+
+---
+
+==== Übung 16 – Brief speichern
+
+*Ziel:* Den Brief unter «Dokumente» speichern.
+
+. Klicken Sie in der Menüleiste auf *Ablage* → *Sichern unter…*
+  ** Der Sichern-Dialog öffnet sich.
+. Klicken Sie auf das kleine Dreieck (▶) neben dem Dateinamenfeld, um alle Ordner zu sehen.
+. Klicken Sie links auf *Dokumente*.
+. Doppelklicken Sie auf den Ordner *Kurs*.
+. Löschen Sie den vorgeschlagenen Dateinamen und tippen Sie: `Brief`
+. Klicken Sie auf *Sichern*.
+  ** Die Datei wird als `Brief.rtf` im Ordner «Kurs» gespeichert.
+
+[TIP]
+====
+Mit kbd:[⌘+S] können Sie eine bereits gespeicherte Datei schnell aktualisieren (ohne Dialog).
+====
+
+---
+
+==== Übung 17 – Brief schliessen und wieder öffnen
+
+*Ziel:* TextEdit schliessen und die Datei erneut öffnen.
+
+. Schliessen Sie TextEdit mit dem *roten Knöpfchen* oben links.
+. Öffnen Sie den *Finder*.
+. Navigieren Sie zu *Dokumente* → *Kurs*.
+. Doppelklicken Sie auf *Brief.rtf*.
+  ** TextEdit öffnet sich und zeigt den Brief an.
+. Fügen Sie eine neue Zeile am Ende hinzu: «P.S. Ich übe fleissig!»
+. Speichern Sie mit kbd:[⌘+S].
+
+---
+
+=== Modul 6: iCloud Drive – Dokumente in der Cloud (11:30–12:00)
+
+==== Theorie: Was ist iCloud Drive?
+
+*iCloud Drive* ist ein *Cloud-Speicher* von Apple. Das bedeutet:
+
+* Ihre Dateien werden auf Apples Servern gespeichert
+* Sie können von jedem Gerät (Mac, iPhone, iPad) darauf zugreifen
+* Dateien sind vor Datenverlust (z. B. bei Computerausfall) geschützt
+
+[TIP]
+====
+«Cloud» bedeutet «Wolke» – Ihre Dateien sind sozusagen «in der Wolke» gespeichert, also im Internet, nicht nur auf Ihrem Mac.
+====
+
+iCloud Drive ist in macOS eingebaut. Im *Finder* erscheint iCloud Drive als eigener Bereich in der linken Seitenleiste.
+
+[NOTE]
+====
+Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft beim Einrichten, falls noch keine vorhanden ist.
+====
+
+---
+
+==== Übung 18 – Ordner «Kurs» nach iCloud Drive kopieren
+
+*Ziel:* Einen Ordner in iCloud Drive speichern.
+
+. Öffnen Sie den *Finder*.
+. Navigieren Sie zu *Dokumente* → klicken Sie *einmal* auf den Ordner *Kurs*.
+. Drücken Sie kbd:[⌘+C] (Kopieren).
+. Klicken Sie links in der Seitenleiste auf *iCloud Drive*.
+  ** Der Inhalt Ihres iCloud Drive wird angezeigt.
+. Drücken Sie kbd:[⌘+V] (Einfügen).
+  ** Der Ordner «Kurs» wird in iCloud Drive kopiert.
+. Warten Sie, bis das Wolken-Symbol neben dem Ordner verschwindet.
+  ** Erst dann ist der Ordner vollständig in die Cloud hochgeladen.
+
+---
+
+==== Übung 19 – iCloud Drive im Browser aufrufen
+
+*Ziel:* iCloud Drive über den Browser aufrufen und die hochgeladene Datei sehen.
+
+. Öffnen Sie *Safari*.
+. Klicken Sie in die Adressleiste und tippen Sie: `icloud.com`
+. Drücken Sie kbd:[Enter].
+. Melden Sie sich mit Ihrer Apple-ID an (E-Mail und Passwort).
+  ** Die iCloud-Webseite zeigt Ihre Apps und Dateien.
+. Klicken Sie auf *iCloud Drive*.
+. Suchen Sie den Ordner *Kurs* – er sollte sichtbar sein.
+. Klicken Sie auf den Ordner, um ihn zu öffnen und *Brief.rtf* zu sehen.
+
+[TIP]
+====
+iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und auf Ihre Dateien zugreifen möchten.
+====
+
+---
+
+=== Abschluss (11:50–12:00)
+
+*Was haben wir heute und in beiden Kurstagen gelernt?*
+
+* [x] Desktop, Menüleiste, Dock und Launchpad bedienen
+* [x] Fenster verwalten und zwischen Apps wechseln
+* [x] WLAN verbinden und im Internet surfen
+* [x] Ordner und Dateien im Finder verwalten
+* [x] Dokument erstellen, speichern und wieder öffnen
+* [x] Ordner in iCloud Drive speichern und im Browser aufrufen
+
+*Herzlichen Glückwunsch – Sie haben den Kurs erfolgreich abgeschlossen!*
+
+---
+
+== Nützliche Tastenkürzel
+
+[cols="^2,4", options="header"]
+|===
+| Tastenkürzel | Funktion
+
+| kbd:[⌘+Leertaste]
+| Spotlight öffnen (Apps und Dateien suchen)
+
+| kbd:[⌘+Tab]
+| Zwischen geöffneten Apps wechseln
+
+| kbd:[⌘+W]
+| Aktuelles Fenster schliessen
+
+| kbd:[⌘+Q]
+| Aktuelle App beenden
+
+| kbd:[⌘+M]
+| Fenster ins Dock minimieren
+
+| kbd:[⌘+C]
+| Kopieren
+
+| kbd:[⌘+V]
+| Einfügen
+
+| kbd:[⌘+X]
+| Ausschneiden
+
+| kbd:[⌘+Z]
+| Rückgängig machen (letzten Schritt widerrufen)
+
+| kbd:[⌘+S]
+| Sichern (Speichern)
+
+| kbd:[⌘+N]
+| Neues Fenster / Neues Dokument
+
+| kbd:[⌘+⇧+N]
+| Neuen Ordner erstellen (im Finder)
+
+| kbd:[⌘+Entf]
+| Ausgewählte Datei in den Papierkorb legen
+
+| kbd:[Enter]
+| Ausgewählte Datei / Ordner umbenennen (im Finder)
+
+| kbd:[F4]
+| Launchpad öffnen
+|===

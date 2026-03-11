@@ -44,7 +44,7 @@ Nach dem Kurs können die Teilnehmenden:
 | 09:00–12:00
 
 | *Tag 2*
-| Dateien verwalten und speichern (Finder, TextEdit, iCloud)
+| Schreibtische, Dateien verwalten und speichern (Finder, TextEdit, iCloud)
 | 09:00–12:00
 |===
 
@@ -334,7 +334,88 @@ Trackpad: Streichen Sie mit zwei Fingern nach unten, um die Seite nach unten zu 
 
 ---
 
-=== Modul 4: Finder und Ordner (09:15–10:30)
+=== Modul 4: Schreibtische (09:15–09:45)
+
+==== Theorie: Was sind Schreibtische?
+
+macOS erlaubt mehrere virtuelle *Schreibtische* (auch «Spaces» genannt). Jeder Schreibtisch ist eine eigene Arbeitsfläche mit eigenen Fenstern.
+
+[TIP]
+====
+*Beispiel:* Schreibtisch 1 für das Surfen im Internet, Schreibtisch 2 für Dokumente – so bleibt alles übersichtlich.
+====
+
+==== Theorie: Mission Control
+
+*Mission Control* zeigt alle offenen Fenster und Schreibtische auf einen Blick.
+
+Öffnen über:
+
+* Tastenkürzel kbd:[^+↑] (Control-Taste + Pfeil nach oben)
+* Oder: mit *drei Fingern nach oben* streichen auf dem Trackpad
+
+Im oberen Bereich von Mission Control sehen Sie alle Schreibtische. Dort können Sie:
+
+[cols="3,4", options="header"]
+|===
+| Aktion | So geht's
+
+| Neuen Schreibtisch erstellen
+| + Symbol oben rechts klicken
+
+| Zwischen Schreibtischen wechseln
+| Schreibtisch oben anklicken oder kbd:[^+←] / kbd:[^+→]
+
+| Schreibtisch entfernen
+| Maus über Schreibtisch bewegen → × klicken
+
+| Fenster auf anderen Schreibtisch verschieben
+| In Mission Control: Fenster auf den Ziel-Schreibtisch ziehen
+|===
+
+---
+
+==== Übung 10 – Mission Control öffnen
+
+*Ziel:* Mission Control kennenlernen und alle offenen Fenster überblicken.
+
+. Drücken Sie kbd:[^+↑] (Control-Taste und Pfeil nach oben gleichzeitig).
+  ** Mission Control öffnet sich – alle offenen Fenster werden angezeigt.
+. Schauen Sie sich den oberen Bereich an: dort steht «Schreibtisch 1».
+. Klicken Sie auf ein Fenster, um es in den Vordergrund zu bringen.
+  ** Mission Control schliesst sich und das gewählte Fenster wird aktiv.
+
+[NOTE]
+====
+Mission Control lässt sich auch mit kbd:[Escape] schliessen, ohne eine Auswahl zu treffen.
+====
+
+---
+
+==== Übung 11 – Zweiten Schreibtisch erstellen und wechseln
+
+*Ziel:* Einen zweiten Schreibtisch anlegen und zwischen beiden wechseln.
+
+. Öffnen Sie Mission Control (kbd:[^+↑]).
+. Klicken Sie oben rechts auf das *+ Symbol*.
+  ** Ein neuer «Schreibtisch 2» erscheint in der oberen Leiste.
+. Klicken Sie auf *Schreibtisch 2*.
+  ** Ein leerer Schreibtisch wird angezeigt.
+. Öffnen Sie *Safari* über das Dock-Symbol.
+  ** Safari erscheint auf Schreibtisch 2.
+. Drücken Sie kbd:[^+←] (Control + Pfeil links).
+  ** Sie wechseln zurück zu Schreibtisch 1 – Safari ist nicht mehr sichtbar.
+. Drücken Sie kbd:[^+→] (Control + Pfeil rechts).
+  ** Sie sind wieder auf Schreibtisch 2 mit Safari.
+
+[TIP]
+====
+Auf dem Trackpad: Mit *drei Fingern nach links oder rechts* streichen wechselt direkt zwischen Schreibtischen.
+====
+
+---
+
+=== Modul 5: Finder und Ordner (09:45–10:45)
 
 ==== Theorie: Finder
 
@@ -385,7 +466,7 @@ Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht
 
 ---
 
-==== Übung 10 – Ordner «Dokumente» öffnen
+==== Übung 12 – Ordner «Dokumente» öffnen
 
 *Ziel:* Den Finder öffnen und zum Ordner «Dokumente» navigieren.
 
@@ -398,7 +479,7 @@ Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht
 
 ---
 
-==== Übung 11 – Neuen Ordner «Kurs» erstellen
+==== Übung 13 – Neuen Ordner «Kurs» erstellen
 
 *Ziel:* Einen neuen Ordner anlegen.
 
@@ -417,7 +498,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 ---
 
-==== Übung 12 – Datei in den Ordner «Kurs» kopieren
+==== Übung 14 – Datei in den Ordner «Kurs» kopieren
 
 *Ziel:* Eine vorhandene Datei kopieren und in einem anderen Ordner einfügen.
 
@@ -431,7 +512,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 ---
 
-==== Übung 13 – Datei umbenennen
+==== Übung 15 – Datei umbenennen
 
 *Ziel:* Den Namen einer Datei ändern.
 
@@ -448,7 +529,7 @@ Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt
 
 ---
 
-==== Übung 14 – Datei löschen und wiederherstellen
+==== Übung 16 – Datei löschen und wiederherstellen
 
 *Ziel:* Eine Datei in den Papierkorb verschieben und danach wiederherstellen.
 
@@ -464,11 +545,11 @@ Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt
 
 ---
 
-=== Pause (10:30–10:45)
+=== Pause (10:45–11:00)
 
 ---
 
-=== Modul 5: Dokumente erstellen und speichern (10:45–11:30)
+=== Modul 6: Dokumente erstellen und speichern (11:00–11:30)
 
 ==== Theorie: TextEdit
 
@@ -503,7 +584,7 @@ Beim ersten Speichern einer Datei erscheint der *Sichern-Dialog*:
 
 ---
 
-==== Übung 15 – Kurzen Brief in TextEdit schreiben
+==== Übung 17 – Kurzen Brief in TextEdit schreiben
 
 *Ziel:* TextEdit öffnen und einen Text eingeben.
 
@@ -527,7 +608,7 @@ Viele Grüsse
 
 ---
 
-==== Übung 16 – Brief speichern
+==== Übung 18 – Brief speichern
 
 *Ziel:* Den Brief unter «Dokumente» speichern.
 
@@ -547,7 +628,7 @@ Mit kbd:[⌘+S] können Sie eine bereits gespeicherte Datei schnell aktualisiere
 
 ---
 
-==== Übung 17 – Brief schliessen und wieder öffnen
+==== Übung 19 – Brief schliessen und wieder öffnen
 
 *Ziel:* TextEdit schliessen und die Datei erneut öffnen.
 
@@ -561,7 +642,7 @@ Mit kbd:[⌘+S] können Sie eine bereits gespeicherte Datei schnell aktualisiere
 
 ---
 
-=== Modul 6: iCloud Drive – Dokumente in der Cloud (11:30–12:00)
+=== Modul 7: iCloud Drive – Dokumente in der Cloud (11:30–12:00)
 
 ==== Theorie: Was ist iCloud Drive?
 
@@ -585,7 +666,7 @@ Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft
 
 ---
 
-==== Übung 18 – Ordner «Kurs» nach iCloud Drive kopieren
+==== Übung 20 – Ordner «Kurs» nach iCloud Drive kopieren
 
 *Ziel:* Einen Ordner in iCloud Drive speichern.
 
@@ -601,7 +682,7 @@ Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft
 
 ---
 
-==== Übung 19 – iCloud Drive im Browser aufrufen
+==== Übung 21 – iCloud Drive im Browser aufrufen
 
 *Ziel:* iCloud Drive über den Browser aufrufen und die hochgeladene Datei sehen.
 
@@ -628,6 +709,7 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 * [x] Desktop, Menüleiste, Dock und Spotlight bedienen
 * [x] Fenster verwalten und zwischen Apps wechseln
 * [x] WLAN verbinden und im Internet surfen
+* [x] Schreibtische erstellen und wechseln
 * [x] Ordner und Dateien im Finder verwalten
 * [x] Dokument erstellen, speichern und wieder öffnen
 * [x] Ordner in iCloud Drive speichern und im Browser aufrufen
@@ -647,6 +729,12 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 
 | kbd:[⌘+Tab]
 | Zwischen geöffneten Apps wechseln
+
+| kbd:[^+↑]
+| Mission Control öffnen (alle Fenster und Schreibtische)
+
+| kbd:[^+←] / kbd:[^+→]
+| Zum vorherigen / nächsten Schreibtisch wechseln
 
 | kbd:[⌘+W]
 | Aktuelles Fenster schliessen

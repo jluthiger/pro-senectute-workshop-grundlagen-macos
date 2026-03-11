@@ -11,3 +11,7 @@ Schritt für Schritt machen wir Sie und Sie sich fit für den digitalen Alltag m
 
 - Ihr Computer
 - Freude am Ausprobieren und Entdecken
+
+## Kursunterlagen
+
+Die Kursunterlagen finden Sie [Website](https://jluthiger.github.io/pro-senectute-workshop-grundlagen-macos/).

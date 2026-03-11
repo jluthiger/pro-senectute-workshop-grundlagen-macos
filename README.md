@@ -9,9 +9,9 @@ Schritt für Schritt machen wir Sie und Sie sich fit für den digitalen Alltag m
 
 ## Was sollten Sie mitbringen?
 
-- Ihr Computer
+- Ihr Computer mit einem aktuellen Betriebssystem (macOS Tahoe)
 - Freude am Ausprobieren und Entdecken
 
 ## Kursunterlagen
 
-Die Kursunterlagen finden Sie [Website](https://jluthiger.github.io/pro-senectute-workshop-grundlagen-macos/).
+Die Kursunterlagen erhalten Sie über [Website](https://jluthiger.github.io/pro-senectute-workshop-grundlagen-macos/).

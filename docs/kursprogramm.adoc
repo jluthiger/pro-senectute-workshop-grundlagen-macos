@@ -111,7 +111,7 @@ Apps können ins Dock gezogen oder daraus entfernt werden. Durch Rechtsklick (od
 *Ziel:* Den Desktop kennenlernen und 5 Elemente benennen.
 
 . Schauen Sie sich den Desktop genau an.
-. Zeigen Sie mit der Maus auf ein Symbol – es erscheint ein kleiner Hinweistext.
+. Zeigen Sie mit der Maus auf ein Symbol – z.T. erscheint ein kleiner Hinweistext.
 . Suchen Sie diese 5 Dinge und nennen Sie sie laut:
   ** Die Menüleiste (ganz oben)
   ** Das Apple-Symbol (🍎 oben links)
@@ -165,8 +165,7 @@ Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf 
 
 . Schauen Sie in die obere rechte Ecke des Bildschirms.
 . Lesen Sie die angezeigte Uhrzeit vor.
-. Klicken Sie einmal auf die Uhrzeit.
-  ** Ein kleiner Kalender wird eingeblendet.
+. Suchen Sie ,ot Spotlight nac "Uhr".
 . Klicken Sie auf *Datum & Uhrzeit-Einstellungen öffnen*, um mehr zu sehen.
 . Drücken Sie kbd:[⌘+W] oder klicken Sie das rote Knöpfchen, um das Fenster zu schliessen.
 
@@ -207,11 +206,11 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
 
 ---
 
-==== Übung 5 – Rechner öffnen und verschieben
+==== Übung 5 – Uhr öffnen und verschieben
 
 *Ziel:* Ein Fenster verschieben und die Grösse ändern.
 
-. Starten Sie den *Rechner* (kbd:[⌘+Leertaste] → «Rechner» tippen → kbd:[Enter]).
+. Starten Sie die *Uhr* (kbd:[⌘+Leertaste] → Uhr tippen → kbd:[Enter]).
 . Klicken Sie auf die *Titelleiste* (die obere Leiste des Fensters) und halten Sie die Maustaste gedrückt.
 . Ziehen Sie das Fenster in die Mitte des Bildschirms und lassen Sie los.
 . Zeigen Sie mit der Maus auf eine *Fensterecke*, bis ein Doppelpfeil erscheint.
@@ -228,13 +227,13 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
   ** Ein Menü erscheint mit «Fenster links im Splitscreen platzieren» usw.
 . Wählen Sie *Fenster links im Splitscreen platzieren*.
   ** Safari füllt die linke Hälfte.
-. Klicken Sie rechts auf *Rechner*.
-  ** Der Rechner füllt die rechte Hälfte.
+. Klicken Sie rechts auf *Uhr*.
+  ** Die Uhr füllt die rechte Hälfte.
 . Sie sehen jetzt zwei Fenster nebeneinander.
 
 [TIP]
 ====
-Um den Splitscreen zu beenden, drücken Sie kbd:[Escape] oder klicken Sie erneut auf den grünen Knopf.
+Um den Splitscreen zu beenden, ziehen Sie das Fenster in die Mitte des Bildschirms.
 ====
 
 ---
@@ -265,7 +264,7 @@ Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Fu
 
 [TIP]
 ====
-*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter oder steht auf Ihrem Router.
+*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter (oder steht auf Ihrem Router).
 ====
 
 ==== Theorie: Safari
@@ -285,7 +284,7 @@ Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Fu
 . Schauen Sie oben rechts in die Menüleiste.
 . Klicken Sie auf das *WLAN-Symbol* (Funkwellen-Symbol).
   ** Es öffnet sich ein Menü mit verfügbaren Netzwerken.
-. Prüfen Sie: Ist ein Netzwerk mit Häkchen markiert? Das ist die aktuelle Verbindung.
+. Prüfen Sie: Ist ein Netzwerk fett markiert ist? Das ist die aktuelle Verbindung.
 . Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.
   ** Ein Passwort-Fenster erscheint.
 . Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf *Verbinden*.
@@ -299,14 +298,14 @@ Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Fu
 
 . Klicken Sie auf das *Safari-Symbol* im Dock (blauer Globus).
 . Safari öffnet sich. Klicken Sie in die *Adressleiste* (langer Balken ganz oben).
-. Tippen Sie: `www.pro-senectute.ch`
+. Tippen Sie: `prosenectute.ch`
 . Drücken Sie kbd:[Enter].
   ** Die Webseite von Pro Senectute wird geladen.
-. Schauen Sie sich die Seite an – scrollen Sie mit dem Mausrad oder zwei Fingern auf dem Trackpad nach unten.
+. Schauen Sie sich die Seite an – scrollen Sie mit dem Mausrad oder mit zwei Fingern auf dem Trackpad nach unten.
 
 [NOTE]
 ====
-Trackpad: Streichen Sie mit zwei Fingern nach unten, um die Seite nach unten zu scrollen.
+Trackpad: Streichen Sie mit zwei Fingern nach oben, um die Seite nach unten zu scrollen. Hängt aber von der EInstellung ab – fragen Sie den Kursleiter, falls es nicht funktioniert.
 ====
 
 ---

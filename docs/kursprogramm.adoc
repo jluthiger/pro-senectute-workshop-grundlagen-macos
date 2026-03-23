@@ -464,6 +464,7 @@ Legen Sie für jedes Thema einen eigenen Ordner an – zum Beispiel «Finanzen»
 Ein *USB-Stick* (auch «Memorystick» oder «Flashdrive» genannt) ist ein kleines, tragbares Speichermedium.
 
 *Vorteile:*
+
 * Kein Internet nötig
 * Einfach von einem Mac zum anderen mitnehmen
 * Günstig und weit verbreitet

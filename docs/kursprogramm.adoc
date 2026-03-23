@@ -1,7 +1,7 @@
 = macOS Grundkurs – Kursprogramm
 :author_1: Pro Senectute Luzern
 :author_2: Jürg Luthiger
-:revnumber: 1.0
+:revnumber: 1.1
 
 :lang: de
 :toc:
@@ -44,7 +44,7 @@ Nach dem Kurs können die Teilnehmenden:
 | 09:00–12:00
 
 | *Tag 2*
-| Schreibtische, Dateien verwalten und speichern (Finder, TextEdit, iCloud)
+| Dateien verwalten und speichern (Finder, TextEdit, iCloud Drive)
 | 09:00–12:00
 |===
 
@@ -93,7 +93,7 @@ Das *Dock* ist die Leiste am unteren Bildschirmrand. Es enthält:
 
 [TIP]
 ====
-Apps können ins Dock gezogen oder daraus entfernt werden. Durch Rechtsklick (oder Ctrl+Klick) auf ein Dock-Symbol erscheinen weitere Optionen.
+Apps können ins Dock gezogen oder daraus entfernt werden. Durch Ctrl+Klick (oder rechte Maustaste) auf ein Dock-Symbol erscheinen weitere Optionen.
 ====
 
 ==== Theorie: Spotlight
@@ -165,9 +165,27 @@ Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf 
 
 . Schauen Sie in die obere rechte Ecke des Bildschirms.
 . Lesen Sie die angezeigte Uhrzeit vor.
-. Suchen Sie ,ot Spotlight nac "Uhr".
-. Klicken Sie auf *Datum & Uhrzeit-Einstellungen öffnen*, um mehr zu sehen.
-. Drücken Sie kbd:[⌘+W] oder klicken Sie das rote Knöpfchen, um das Fenster zu schliessen.
+. Klicken Sie einmal auf die Uhrzeit in der Menüleiste.
+  ** Ein Fenster mit Uhr und Kalender wird eingeblendet.
+. Klicken Sie irgendwo auf den Desktop, um das Fenster zu schliessen.
+
+---
+
+==== Übung 5 – App aus dem Dock starten
+
+*Ziel:* Apps direkt aus dem Dock starten und erkennen, welche Apps gerade offen sind.
+
+. Klicken Sie im Dock auf das *Safari-Symbol* (blauer Globus).
+  ** Safari öffnet sich.
+. Schauen Sie auf die Symbole im Dock: Welche Apps haben einen kleinen Punkt darunter?
+  ** Das sind die gerade geöffneten Apps (Rechner, TextEdit, Safari).
+. Klicken Sie im Dock auf das *Finder-Symbol* (lächelndes Gesicht ganz links).
+  ** Der Finder öffnet sich.
+
+[TIP]
+====
+Das Dock ist Ihr Schnellzugriff – dort sind alle wichtigen Apps direkt erreichbar. Geöffnete Apps erkennen Sie am kleinen Punkt unter dem Symbol.
+====
 
 ---
 
@@ -175,7 +193,19 @@ Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf 
 
 ---
 
-=== Modul 2: Mit Fenstern arbeiten (10:45–11:30)
+=== Modul 2: WLAN, Fenster und Fensterverwaltung (10:45–11:30)
+
+==== Theorie: WLAN-Verbindung
+
+Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Funkwellen). Darüber können Sie:
+
+* Sehen, ob Sie verbunden sind
+* Sich mit einem WLAN-Netzwerk verbinden
+
+[TIP]
+====
+*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter oder steht auf Ihrem Router.
+====
 
 ==== Theorie: Fenster verstehen
 
@@ -206,11 +236,31 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
 
 ---
 
-==== Übung 5 – Uhr öffnen und verschieben
+==== Übung 6 – WLAN-Status prüfen und verbinden
+
+*Ziel:* WLAN-Symbol finden, Verbindungsstatus prüfen und mit dem Kursnetzwerk verbinden.
+
+. Schauen Sie oben rechts in die Menüleiste.
+. Klicken Sie auf das *WLAN-Symbol* (Funkwellen-Symbol).
+  ** Es öffnet sich ein Menü mit verfügbaren Netzwerken.
+. Prüfen Sie: Ist ein Netzwerk mit einem Häkchen markiert? Das ist die aktuelle Verbindung.
+. Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.
+  ** Ein Passwort-Fenster erscheint.
+. Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf *Verbinden*.
+. Drücken Sie kbd:[Escape], um das Menü zu schliessen.
+
+[NOTE]
+====
+Sobald WLAN verbunden ist, erscheint das Symbol als ausgefülltes Fächer-Symbol. Erst jetzt funktioniert der Browser mit Internet.
+====
+
+---
+
+==== Übung 7 – Rechner öffnen und verschieben
 
 *Ziel:* Ein Fenster verschieben und die Grösse ändern.
 
-. Starten Sie die *Uhr* (kbd:[⌘+Leertaste] → Uhr tippen → kbd:[Enter]).
+. Starten Sie den *Rechner* (kbd:[⌘+Leertaste] → Rechner tippen → kbd:[Enter]).
 . Klicken Sie auf die *Titelleiste* (die obere Leiste des Fensters) und halten Sie die Maustaste gedrückt.
 . Ziehen Sie das Fenster in die Mitte des Bildschirms und lassen Sie los.
 . Zeigen Sie mit der Maus auf eine *Fensterecke*, bis ein Doppelpfeil erscheint.
@@ -218,94 +268,96 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
 
 ---
 
-==== Übung 6 – Split View (Bildschirm teilen)
+==== Übung 8 – Split View (Bildschirm teilen) mit Safari und Webseite
 
-*Ziel:* Zwei Fenster nebeneinander anzeigen.
+*Ziel:* Den Browser mit einer Webseite öffnen und zwei Fenster nebeneinander anzeigen.
 
 . Öffnen Sie *Safari* (Globus-Symbol im Dock).
+. Klicken Sie in die *Adressleiste* (langer Balken oben) und tippen Sie: `www.srf.ch`
+. Drücken Sie kbd:[Enter].
+  ** Die SRF-Webseite wird geladen.
 . Halten Sie den *grünen Knopf* von Safari gedrückt.
   ** Ein Menü erscheint mit «Fenster links im Splitscreen platzieren» usw.
 . Wählen Sie *Fenster links im Splitscreen platzieren*.
   ** Safari füllt die linke Hälfte.
-. Klicken Sie rechts auf *Uhr*.
-  ** Die Uhr füllt die rechte Hälfte.
+. Klicken Sie rechts auf *Rechner*.
+  ** Der Rechner füllt die rechte Hälfte.
 . Sie sehen jetzt zwei Fenster nebeneinander.
 
 [TIP]
 ====
-Um den Splitscreen zu beenden, ziehen Sie das Fenster in die Mitte des Bildschirms.
+Um den Splitscreen zu beenden, ziehen Sie das Fenster in die Mitte des Bildschirms oder klicken Sie auf den grünen Knopf.
 ====
 
 ---
 
-==== Übung 7 – Zwischen Apps wechseln
+==== Übung 9 – Zwischen Fenstern wechseln
 
-*Ziel:* Zwischen zwei offenen Apps hin- und herwechseln.
+*Ziel:* Zwischen zwei offenen Fenstern hin- und herwechseln.
 
 . Stellen Sie sicher, dass Rechner und Safari geöffnet sind.
 . Klicken Sie im *Dock* auf das Rechner-Symbol.
   ** Der Rechner wird aktiv (in den Vordergrund geholt).
-. Klicken Sie im Dock auf das *Safari-Symbol*.
+. Klicken Sie auf das *Safari-Symbol* im Dock.
   ** Safari kommt in den Vordergrund.
 . Drücken Sie kbd:[⌘+Tab] (Command-Taste halten, Tab-Taste drücken).
   ** Es erscheint eine Übersicht aller offenen Apps.
-. Halten Sie kbd:[⌘] gedrückt und drücken Sie nochmals kbd:[Tab], um zur gewünschten App zu wechseln.
+. Lassen Sie kbd:[⌘] los, um zur markierten App zu wechseln.
 
 ---
 
-=== Modul 3: WLAN und Internet (11:30–12:00)
-
-==== Theorie: WLAN-Verbindung
-
-Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Funkwellen). Darüber können Sie:
-
-* Sehen, ob Sie verbunden sind
-* Sich mit einem WLAN-Netzwerk verbinden
-
-[TIP]
-====
-*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter (oder steht auf Ihrem Router).
-====
+=== Modul 3: Mit Safari arbeiten (11:30–12:00)
 
 ==== Theorie: Safari
 
-*Safari* ist der eingebaute *Webbrowser* von macOS. Mit ihm rufen Sie Webseiten auf:
+*Safari* ist der eingebaute *Webbrowser* von macOS. Mit ihm rufen Sie Webseiten auf.
 
-. Safari öffnen (Symbol im Dock)
-. Adresse in die *Adressleiste* (oben) eintippen
-. kbd:[Enter] drücken
+*Wichtige Bereiche im Browser:*
+
+[cols="2,4", options="header"]
+|===
+| Bereich | Funktion
+
+| *Adressleiste* (oben)
+| Webadresse (URL) eintippen und kbd:[Enter] drücken
+
+| *Zurück-Pfeil* (←)
+| Zur vorherigen Seite zurückgehen
+
+| *Aktualisieren* (↻)
+| Seite neu laden
+
+| *Tabs* (Reiter oben)
+| Mehrere Webseiten gleichzeitig geöffnet halten
+|===
+
+[TIP]
+====
+Eine *Webadresse* beginnt meist mit `www.` und endet auf `.ch`, `.de` oder `.com`. Sie müssen `https://` nicht eintippen – der Browser ergänzt das automatisch.
+====
 
 ---
 
-==== Übung 8 – WLAN-Status prüfen
+==== Übung 10 – Webseiten aufrufen und navigieren
 
-*Ziel:* WLAN-Symbol finden und Verbindungsstatus prüfen.
+*Ziel:* Verschiedene Webseiten besuchen und im Browser navigieren.
 
-. Schauen Sie oben rechts in die Menüleiste.
-. Klicken Sie auf das *WLAN-Symbol* (Funkwellen-Symbol).
-  ** Es öffnet sich ein Menü mit verfügbaren Netzwerken.
-. Prüfen Sie: Ist ein Netzwerk fett markiert ist? Das ist die aktuelle Verbindung.
-. Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.
-  ** Ein Passwort-Fenster erscheint.
-. Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf *Verbinden*.
-. Drücken Sie kbd:[Escape], um das Menü zu schliessen.
-
----
-
-==== Übung 9 – Webseite aufrufen
-
-*Ziel:* Den Browser öffnen und eine Webseite besuchen.
-
-. Klicken Sie auf das *Safari-Symbol* im Dock (blauer Globus).
-. Safari öffnet sich. Klicken Sie in die *Adressleiste* (langer Balken ganz oben).
-. Tippen Sie: `prosenectute.ch`
+. Öffnen Sie *Safari* (Globus-Symbol im Dock).
+. Klicken Sie in die *Adressleiste* und tippen Sie: `www.pro-senectute.ch`
 . Drücken Sie kbd:[Enter].
   ** Die Webseite von Pro Senectute wird geladen.
-. Schauen Sie sich die Seite an – scrollen Sie mit dem Mausrad oder mit zwei Fingern auf dem Trackpad nach unten.
+. Scrollen Sie mit dem *Mausrad* nach unten, um die Seite zu erkunden.
+. Klicken Sie auf einen *Link* auf der Seite (unterstrichener oder farbiger Text).
+  ** Eine neue Seite lädt.
+. Klicken Sie auf den *Zurück-Pfeil* (←) oben links.
+  ** Sie kehren zur vorherigen Seite zurück.
+. Tippen Sie nun in die Adressleiste: `www.meteoschweiz.admin.ch`
+. Drücken Sie kbd:[Enter].
+  ** Das Wetterportal von MeteoSchweiz öffnet sich.
 
 [NOTE]
 ====
-Trackpad: Streichen Sie mit zwei Fingern nach oben, um die Seite nach unten zu scrollen. Hängt aber von der EInstellung ab – fragen Sie den Kursleiter, falls es nicht funktioniert.
+Trackpad: Streichen Sie mit zwei Fingern nach oben oder unten, um die Seite zu scrollen.
 ====
 
 ---
@@ -316,8 +368,10 @@ Trackpad: Streichen Sie mit zwei Fingern nach oben, um die Seite nach unten zu s
 
 * [x] Desktop, Menüleiste, Dock und Spotlight kennen
 * [x] Apps starten und im Dock behalten
+* [x] Apps schnell aus dem Dock öffnen
+* [x] WLAN verbinden und Internetverbindung herstellen
 * [x] Fenster öffnen, verschieben, teilen und wechseln
-* [x] WLAN prüfen und Webseite aufrufen
+* [x] Webseiten aufrufen und im Browser navigieren
 
 *Hausaufgabe (freiwillig):* Öffnen Sie zu Hause Spotlight (kbd:[⌘+Leertaste]) und starten Sie zwei verschiedene Apps.
 
@@ -333,88 +387,7 @@ Trackpad: Streichen Sie mit zwei Fingern nach oben, um die Seite nach unten zu s
 
 ---
 
-=== Modul 4: Schreibtische (09:15–09:45)
-
-==== Theorie: Was sind Schreibtische?
-
-macOS erlaubt mehrere virtuelle *Schreibtische* (auch «Spaces» genannt). Jeder Schreibtisch ist eine eigene Arbeitsfläche mit eigenen Fenstern.
-
-[TIP]
-====
-*Beispiel:* Schreibtisch 1 für das Surfen im Internet, Schreibtisch 2 für Dokumente – so bleibt alles übersichtlich.
-====
-
-==== Theorie: Mission Control
-
-*Mission Control* zeigt alle offenen Fenster und Schreibtische auf einen Blick.
-
-Öffnen über:
-
-* Tastenkürzel kbd:[^+↑] (Control-Taste + Pfeil nach oben)
-* Oder: mit *drei Fingern nach oben* streichen auf dem Trackpad
-
-Im oberen Bereich von Mission Control sehen Sie alle Schreibtische. Dort können Sie:
-
-[cols="3,4", options="header"]
-|===
-| Aktion | So geht's
-
-| Neuen Schreibtisch erstellen
-| + Symbol oben rechts klicken
-
-| Zwischen Schreibtischen wechseln
-| Schreibtisch oben anklicken oder kbd:[^+←] / kbd:[^+→]
-
-| Schreibtisch entfernen
-| Maus über Schreibtisch bewegen → × klicken
-
-| Fenster auf anderen Schreibtisch verschieben
-| In Mission Control: Fenster auf den Ziel-Schreibtisch ziehen
-|===
-
----
-
-==== Übung 10 – Mission Control öffnen
-
-*Ziel:* Mission Control kennenlernen und alle offenen Fenster überblicken.
-
-. Drücken Sie kbd:[^+↑] (Control-Taste und Pfeil nach oben gleichzeitig).
-  ** Mission Control öffnet sich – alle offenen Fenster werden angezeigt.
-. Schauen Sie sich den oberen Bereich an: dort steht «Schreibtisch 1».
-. Klicken Sie auf ein Fenster, um es in den Vordergrund zu bringen.
-  ** Mission Control schliesst sich und das gewählte Fenster wird aktiv.
-
-[NOTE]
-====
-Mission Control lässt sich auch mit kbd:[Escape] schliessen, ohne eine Auswahl zu treffen.
-====
-
----
-
-==== Übung 11 – Zweiten Schreibtisch erstellen und wechseln
-
-*Ziel:* Einen zweiten Schreibtisch anlegen und zwischen beiden wechseln.
-
-. Öffnen Sie Mission Control (kbd:[^+↑]).
-. Klicken Sie oben rechts auf das *+ Symbol*.
-  ** Ein neuer «Schreibtisch 2» erscheint in der oberen Leiste.
-. Klicken Sie auf *Schreibtisch 2*.
-  ** Ein leerer Schreibtisch wird angezeigt.
-. Öffnen Sie *Safari* über das Dock-Symbol.
-  ** Safari erscheint auf Schreibtisch 2.
-. Drücken Sie kbd:[^+←] (Control + Pfeil links).
-  ** Sie wechseln zurück zu Schreibtisch 1 – Safari ist nicht mehr sichtbar.
-. Drücken Sie kbd:[^+→] (Control + Pfeil rechts).
-  ** Sie sind wieder auf Schreibtisch 2 mit Safari.
-
-[TIP]
-====
-Auf dem Trackpad: Mit *drei Fingern nach links oder rechts* streichen wechselt direkt zwischen Schreibtischen.
-====
-
----
-
-=== Modul 5: Finder und Ordner (09:45–10:45)
+=== Modul 4: Finder und Ordner (09:15–10:30)
 
 ==== Theorie: Finder
 
@@ -456,6 +429,66 @@ Im Finder sehen Sie links die *Seitenleiste* (Favoriten, iCloud Drive, Geräte) 
 | Ctrl+Klick → *In den Papierkorb legen* (oder kbd:[⌘+Entf])
 |===
 
+==== Theorie: Sinnvolle Dateinamen und Ordnerstruktur
+
+Ein guter Dateiname hilft Ihnen, Dateien schnell wiederzufinden – auch nach Wochen oder Monaten.
+
+*Regeln für sinnvolle Dateinamen:*
+
+. *Beschreibend:* Der Name soll den Inhalt erklären.
+. *Datum angeben:* Das Format `JJJJ-MM-TT` sortiert automatisch chronologisch (z. B. `2026-03-21`).
+. *Keine Leerzeichen:* Verwenden Sie stattdessen den Unterstrich `_` oder Bindestrich `-`.
+. *Keine Sonderzeichen:* Vermeiden Sie `ä`, `ö`, `ü`, `é`, `&`, `#` usw. – manche Programme haben damit Mühe.
+
+[cols="3,3", options="header"]
+|===
+| Schlechter Name | Guter Name
+
+| `Dokument1.txt`
+| `2026-03-21_Brief_Mutter.txt`
+
+| `neu.docx`
+| `Steuern_2025_Abrechnung.docx`
+
+| `foto vom urlaub.jpg`
+| `2025-08_Urlaub_Mallorca.jpg`
+|===
+
+[TIP]
+====
+Legen Sie für jedes Thema einen eigenen Ordner an – zum Beispiel «Finanzen», «Arzt», «Familie». So behalten Sie den Überblick.
+====
+
+==== Theorie: USB-Stick
+
+Ein *USB-Stick* (auch «Memorystick» oder «Flashdrive» genannt) ist ein kleines, tragbares Speichermedium.
+
+*Vorteile:*
+* Kein Internet nötig
+* Einfach von einem Mac zum anderen mitnehmen
+* Günstig und weit verbreitet
+
+*USB-Stick anschliessen:*
+
+. Stecken Sie den USB-Stick in einen *USB-Anschluss* am Mac (seitlich oder hinten, je nach Modell).
+. Nach kurzer Zeit erscheint der Stick im *Finder* in der linken Seitenleiste unter «Geräte».
+
+[NOTE]
+====
+Neuere Mac-Modelle haben nur USB-C-Anschlüsse. Falls Ihr Stick einen normalen USB-A-Stecker hat, benötigen Sie einen Adapter. Der Kursleiter hilft, falls nötig.
+====
+
+*USB-Stick sicher auswerfen:*
+
+. Klicken Sie im Finder auf das *▲-Symbol* neben dem Stick-Namen in der Seitenleiste.
+. Oder: Ctrl+Klick auf den Stick in der Seitenleiste → *«[Name] auswerfen»*.
+. Der Stick verschwindet aus der Seitenleiste – erst jetzt können Sie ihn herausziehen.
+
+[WARNING]
+====
+*Wichtig:* Ziehen Sie den USB-Stick nie einfach heraus, während der Computer noch darauf zugreift! Das kann Daten beschädigen oder verloren gehen lassen. Immer zuerst auswerfen.
+====
+
 ==== Theorie: Papierkorb
 
 Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht endgültig weg!
@@ -465,7 +498,7 @@ Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht
 
 ---
 
-==== Übung 12 – Ordner «Dokumente» öffnen
+==== Übung 11 – Ordner «Dokumente» öffnen
 
 *Ziel:* Den Finder öffnen und zum Ordner «Dokumente» navigieren.
 
@@ -478,7 +511,7 @@ Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht
 
 ---
 
-==== Übung 13 – Neuen Ordner «Kurs» erstellen
+==== Übung 12 – Neuen Ordner «Kurs» erstellen
 
 *Ziel:* Einen neuen Ordner anlegen.
 
@@ -497,7 +530,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 ---
 
-==== Übung 14 – Datei in den Ordner «Kurs» kopieren
+==== Übung 13 – Datei in den Ordner «Kurs» kopieren
 
 *Ziel:* Eine vorhandene Datei kopieren und in einem anderen Ordner einfügen.
 
@@ -511,7 +544,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 ---
 
-==== Übung 15 – Datei umbenennen
+==== Übung 14 – Datei umbenennen
 
 *Ziel:* Den Namen einer Datei ändern.
 
@@ -525,6 +558,24 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 ====
 Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt Sie, falls Sie sie versehentlich ändern möchten.
 ====
+
+---
+
+==== Übung 15 – Datei auf USB-Stick kopieren und Stick sicher entfernen
+
+*Ziel:* Einen USB-Stick anschliessen, eine Datei darauf kopieren und den Stick sicher entfernen.
+
+. Stecken Sie den *USB-Stick* in den USB-Anschluss des Mac.
+  ** Nach kurzer Zeit erscheint der Stick im Finder in der Seitenleiste unter «Geräte».
+. Öffnen Sie den *Finder* und navigieren Sie zu *Dokumente* → *Kurs*.
+. Klicken Sie mit der *rechten Maustaste* auf die Datei *Mein erstes Dokument*.
+. Wählen Sie *Kopieren*.
+. Klicken Sie links in der Seitenleiste unter «Geräte» auf den *USB-Stick*.
+. Drücken Sie kbd:[⌘+V].
+  ** Die Datei erscheint nun auf dem USB-Stick.
+. Klicken Sie auf das *▲-Symbol* neben dem Stick-Namen in der Seitenleiste.
+  ** Der Stick verschwindet aus der Seitenleiste.
+. Erst jetzt können Sie den Stick herausziehen.
 
 ---
 
@@ -544,11 +595,11 @@ Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt
 
 ---
 
-=== Pause (10:45–11:00)
+=== Pause (10:30–10:45)
 
 ---
 
-=== Modul 6: Dokumente erstellen und speichern (11:00–11:30)
+=== Modul 5: Dokumente erstellen und speichern (10:45–11:30)
 
 ==== Theorie: TextEdit
 
@@ -577,8 +628,11 @@ Beim ersten Speichern einer Datei erscheint der *Sichern-Dialog*:
 | *Dokumente* (lokal)
 | Nur auf diesem Mac gespeichert
 
+| *USB-Stick*
+| Portabel – einfach auf einen anderen Mac mitnehmen, kein Internet nötig
+
 | *iCloud Drive*
-| In der Cloud – auch von anderen Geräten zugänglich
+| In der Cloud – auch von anderen Geräten zugänglich, automatische Sicherung
 |===
 
 ---
@@ -641,26 +695,67 @@ Mit kbd:[⌘+S] können Sie eine bereits gespeicherte Datei schnell aktualisiere
 
 ---
 
-=== Modul 7: iCloud Drive – Dokumente in der Cloud (11:30–12:00)
+=== Modul 6: iCloud Drive – Dokumente in der Cloud (11:30–12:00)
 
 ==== Theorie: Was ist iCloud Drive?
 
-*iCloud Drive* ist ein *Cloud-Speicher* von Apple. Das bedeutet:
+Stellen Sie sich vor, Sie haben ein *Schliessfach bei der Bank*. Dort lagern Sie wichtige Dokumente sicher auf. Sie können jederzeit hingehen und auf den Inhalt zugreifen – egal ob von zu Hause, aus dem Urlaub oder von einem anderen Ort. *iCloud Drive funktioniert genauso, nur für Ihre digitalen Dateien.*
 
-* Ihre Dateien werden auf Apples Servern gespeichert
-* Sie können von jedem Gerät (Mac, iPhone, iPad) darauf zugreifen
-* Dateien sind vor Datenverlust (z. B. bei Computerausfall) geschützt
+Wenn Sie eine Datei in iCloud Drive speichern, wird sie automatisch über das Internet auf einen grossen, sicheren Computer von Apple übertragen und dort aufbewahrt. Das nennt man *«Cloud»* – auf Deutsch «Wolke». Ihre Dateien schweben sozusagen sicher im Internet, und Sie können jederzeit darauf zugreifen.
 
-[TIP]
-====
-«Cloud» bedeutet «Wolke» – Ihre Dateien sind sozusagen «in der Wolke» gespeichert, also im Internet, nicht nur auf Ihrem Mac.
-====
+*Drei Vorteile von iCloud Drive:*
+
+. *Sicherheit:* Wenn Ihr Mac kaputt geht oder gestohlen wird, sind Ihre Fotos und Dokumente trotzdem sicher – sie sind ja in iCloud Drive gespeichert.
+. *Überall zugreifbar:* Sie können am iPad Ihrer Enkelin Ihre Fotos anschauen, ohne den Mac mitnehmen zu müssen.
+. *Immer aktuell:* Wenn Sie eine Datei auf dem Mac ändern, ist die aktuelle Version automatisch auch auf Ihrem iPhone oder iPad verfügbar.
+
+*So funktioniert das Speichern in iCloud Drive:*
+
+. Sie speichern eine Datei in den iCloud Drive-Ordner (im Finder sichtbar)
+. Ihr Mac lädt die Datei automatisch über das Internet hoch
+. Die Datei ist nun sicher gespeichert und auf allen Ihren Apple-Geräten verfügbar
 
 iCloud Drive ist in macOS eingebaut. Im *Finder* erscheint iCloud Drive als eigener Bereich in der linken Seitenleiste.
+
+[IMPORTANT]
+====
+iCloud Drive ist *kein Ersatz* für Ihren Mac. Ihre Dateien auf dem Mac bleiben weiterhin dort – iCloud Drive ist eine zusätzliche Sicherheitskopie in der Cloud. Beide Orte haben denselben Inhalt.
+====
 
 [NOTE]
 ====
 Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft beim Einrichten, falls noch keine vorhanden ist.
+====
+
+==== Theorie: iCloud Drive im Browser aufrufen
+
+Sie können auf Ihre iCloud Drive-Dateien auch über den *Webbrowser* zugreifen – ohne den Finder, und sogar von einem fremden Computer aus.
+
+Die Adresse lautet: `icloud.com`
+
+*Warum ist das nützlich?*
+
+* Sie sind bei einer Freundin und möchten ein Dokument zeigen – kein eigener Mac nötig
+* Sie sind im Urlaub und müssen kurz etwas nachschauen
+* Ihr Mac funktioniert gerade nicht – die Dateien sind trotzdem zugänglich
+
+*So melden Sie sich an:*
+
+. Öffnen Sie den Browser (Safari)
+. Tippen Sie in die Adressleiste: `icloud.com`
+. Drücken Sie kbd:[Enter]
+. Geben Sie Ihre *Apple-ID* (E-Mail-Adresse) und Ihr *Passwort* ein
+. Klicken Sie auf *Anmelden*
+  ** Ihre Dateien und Ordner erscheinen – genau wie im Finder
+
+[TIP]
+====
+Wenn Sie auf dem eigenen Mac arbeiten, sind Sie meist schon automatisch angemeldet. Der Login ist vor allem nötig, wenn Sie an einem fremden Gerät sind.
+====
+
+[NOTE]
+====
+Denken Sie daran, sich am Ende *abzumelden*, wenn Sie einen fremden Computer verwenden: oben rechts auf Ihren Namen klicken → *Abmelden*.
 ====
 
 ---
@@ -692,7 +787,7 @@ Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft
   ** Die iCloud-Webseite zeigt Ihre Apps und Dateien.
 . Klicken Sie auf *iCloud Drive*.
 . Suchen Sie den Ordner *Kurs* – er sollte sichtbar sein.
-. Klicken Sie auf den Ordner, um ihn zu öffnen und *Brief.rtf* zu sehen.
+. Klicken Sie auf den Ordner, um ihn zu öffnen, und dann auf *Brief.rtf*, um die Vorschau zu sehen.
 
 [TIP]
 ====
@@ -708,8 +803,9 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 * [x] Desktop, Menüleiste, Dock und Spotlight bedienen
 * [x] Fenster verwalten und zwischen Apps wechseln
 * [x] WLAN verbinden und im Internet surfen
-* [x] Schreibtische erstellen und wechseln
 * [x] Ordner und Dateien im Finder verwalten
+* [x] Sinnvolle Dateinamen vergeben und Ordner strukturieren
+* [x] USB-Stick anschliessen, Datei darauf speichern und sicher entfernen
 * [x] Dokument erstellen, speichern und wieder öffnen
 * [x] Ordner in iCloud Drive speichern und im Browser aufrufen
 
@@ -728,12 +824,6 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 
 | kbd:[⌘+Tab]
 | Zwischen geöffneten Apps wechseln
-
-| kbd:[^+↑]
-| Mission Control öffnen (alle Fenster und Schreibtische)
-
-| kbd:[^+←] / kbd:[^+→]
-| Zum vorherigen / nächsten Schreibtisch wechseln
 
 | kbd:[⌘+W]
 | Aktuelles Fenster schliessen

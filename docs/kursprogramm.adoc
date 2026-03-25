@@ -519,7 +519,7 @@ Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht
 . Stellen Sie sicher, dass Sie im Ordner *Dokumente* sind.
 . Klicken Sie mit der *rechten Maustaste* (oder Ctrl+Klick) in den leeren Bereich rechts.
 . Wählen Sie *Neuer Ordner*.
-  ** Ein neuer Ordner erscheint mit dem Namen «Unbenannter Ordner» (blau markiert).
+  ** Ein neuer Ordner erscheint mit dem Namen Neuer Ordner» (blau markiert).
 . Tippen Sie sofort: `Kurs`
 . Drücken Sie kbd:[Enter].
   ** Der Ordner heisst jetzt «Kurs».
@@ -537,7 +537,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 . Bleiben Sie im Ordner *Dokumente*.
 . Klicken Sie mit der *rechten Maustaste* (Ctrl+Klick) auf eine beliebige Datei (falls vorhanden).
-  ** Falls keine Datei vorhanden: Der Kursleiter stellt eine Beispieldatei bereit.
+  ** Falls keine Datei vorhanden. Sie können eine Beispieldatei xref:mein-setup.pdf[hier] herunterladen.
 . Wählen Sie *Kopieren*.
 . Doppelklicken Sie auf den Ordner *Kurs*, um ihn zu öffnen.
 . Drücken Sie kbd:[⌘+V].
@@ -638,11 +638,11 @@ Beim ersten Speichern einer Datei erscheint der *Sichern-Dialog*:
 
 ---
 
-==== Übung 17 – Kurzen Brief in TextEdit schreiben
+==== Übung 17 – Kurzen Brief in TextEdit (oder Pages/Word) schreiben
 
 *Ziel:* TextEdit öffnen und einen Text eingeben.
 
-. Klicken Sie auf das *TextEdit-Symbol* im Dock.
+. Öffnen Sie über Spotlight das *TextEdit*-Programm.
   ** Falls der Dialog erscheint: Klicken Sie auf *Neues Dokument*.
   ** Ein leeres weisses Textfenster öffnet sich.
 . Tippen Sie folgenden Text (Datum anpassen):
@@ -666,9 +666,9 @@ Viele Grüsse
 
 *Ziel:* Den Brief unter «Dokumente» speichern.
 
-. Klicken Sie in der Menüleiste auf *Ablage* → *Sichern unter…*
+. Klicken Sie in der Menüleiste auf *Ablage* → *Sichern …*
   ** Der Sichern-Dialog öffnet sich.
-. Klicken Sie auf das kleine Dreieck (▶) neben dem Dateinamenfeld, um alle Ordner zu sehen.
+. Klicken Sie auf das kleine Dreieck (▶) neben dem Feld *Ort*, um alle Ordner zu sehen.
 . Klicken Sie links auf *Dokumente*.
 . Doppelklicken Sie auf den Ordner *Kurs*.
 . Löschen Sie den vorgeschlagenen Dateinamen und tippen Sie: `Brief`

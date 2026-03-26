@@ -537,7 +537,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 . Bleiben Sie im Ordner *Dokumente*.
 . Klicken Sie mit der *rechten Maustaste* (Ctrl+Klick) auf eine beliebige Datei (falls vorhanden).
-  ** Falls keine Datei vorhanden. Sie können eine Beispieldatei xref:mein-setup.pdf[hier] herunterladen.
+  ** Falls keine Datei vorhanden. Sie können eine Beispieldatei xref:docs/mein-setup.pdf[hier] herunterladen.
 . Wählen Sie *Kopieren*.
 . Doppelklicken Sie auf den Ordner *Kurs*, um ihn zu öffnen.
 . Drücken Sie kbd:[⌘+V].

@@ -21,9 +21,9 @@ Seniorinnen und Senioren mit kaum oder keiner Mac-Erfahrung, die macOS grundlege
 
 Nach dem Kurs können die Teilnehmenden:
 
+* Eine WLAN-Verbindung herstellen und den Browser öffnen
 * Den macOS-Desktop, das Dock und die Menüleiste selbstständig bedienen
 * Apps über Spotlight starten und Fenster verwalten
-* Eine WLAN-Verbindung herstellen und den Browser öffnen
 * Ordner und Dateien im Finder anlegen und verwalten
 * Dokumente erstellen, speichern und wieder öffnen
 * Dateien in iCloud Drive ablegen
@@ -40,7 +40,7 @@ Nach dem Kurs können die Teilnehmenden:
 | Tag | Inhalt | Zeit
 
 | *Tag 1*
-| macOS kennenlernen (Desktop, Fenster, WLAN)
+| macOS kennenlernen (WLAN, Desktop, Fenster)
 | 09:00–12:00
 
 | *Tag 2*
@@ -60,7 +60,41 @@ Nach dem Kurs können die Teilnehmenden:
 
 ---
 
-=== Modul 1: macOS Grundlagen (09:15–10:30)
+=== Modul 1: WLAN einrichten und macOS Grundlagen (09:15–10:30)
+
+==== Theorie: WLAN-Verbindung
+
+Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Funkwellen). Darüber können Sie:
+
+* Sehen, ob Sie verbunden sind
+* Sich mit einem WLAN-Netzwerk verbinden
+
+[TIP]
+====
+*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter oder steht auf Ihrem Router.
+====
+
+---
+
+==== Übung 1 – WLAN-Status prüfen und verbinden
+
+*Ziel:* WLAN-Symbol finden, Verbindungsstatus prüfen und mit dem Kursnetzwerk verbinden.
+
+. Schauen Sie oben rechts in die Menüleiste.
+. Klicken Sie auf das *WLAN-Symbol* (Funkwellen-Symbol).
+  ** Es öffnet sich ein Menü mit verfügbaren Netzwerken.
+. Prüfen Sie: Ist ein Netzwerk mit einem Häkchen markiert? Das ist die aktuelle Verbindung.
+. Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.
+  ** Ein Passwort-Fenster erscheint.
+. Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf *Verbinden*.
+. Drücken Sie kbd:[Escape], um das Menü zu schliessen.
+
+[NOTE]
+====
+Sobald WLAN verbunden ist, erscheint das Symbol als ausgefülltes Fächer-Symbol. Erst jetzt funktioniert der Browser mit Internet.
+====
+
+---
 
 ==== Theorie: Desktop
 
@@ -106,7 +140,7 @@ Apps können ins Dock gezogen oder daraus entfernt werden. Durch Ctrl+Klick (ode
 
 ---
 
-==== Übung 1 – Desktop erkunden
+==== Übung 2 – Desktop erkunden
 
 *Ziel:* Den Desktop kennenlernen und 5 Elemente benennen.
 
@@ -126,7 +160,7 @@ Wenn etwas nicht sichtbar ist, kann der Kursleiter helfen.
 
 ---
 
-==== Übung 2 – Spotlight öffnen und Taschenrechner starten
+==== Übung 3 – Spotlight öffnen und Taschenrechner starten
 
 *Ziel:* Spotlight bedienen und ein Programm starten.
 
@@ -140,7 +174,7 @@ Wenn etwas nicht sichtbar ist, kann der Kursleiter helfen.
 
 ---
 
-==== Übung 3 – App ins Dock hinzufügen
+==== Übung 4 – App ins Dock hinzufügen
 
 *Ziel:* Eine App dauerhaft ins Dock aufnehmen.
 
@@ -159,7 +193,7 @@ Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf 
 
 ---
 
-==== Übung 4 – Uhrzeit und Datum ablesen
+==== Übung 5 – Uhrzeit und Datum ablesen
 
 *Ziel:* Uhrzeit und Datum in der Menüleiste lesen.
 
@@ -171,7 +205,7 @@ Nicht mehr benötigte Apps können aus dem Dock entfernt werden: Ctrl+Klick auf 
 
 ---
 
-==== Übung 5 – App aus dem Dock starten
+==== Übung 6 – App aus dem Dock starten
 
 *Ziel:* Apps direkt aus dem Dock starten und erkennen, welche Apps gerade offen sind.
 
@@ -193,19 +227,7 @@ Das Dock ist Ihr Schnellzugriff – dort sind alle wichtigen Apps direkt erreich
 
 ---
 
-=== Modul 2: WLAN, Fenster und Fensterverwaltung (10:45–11:30)
-
-==== Theorie: WLAN-Verbindung
-
-Das *WLAN-Symbol* befindet sich oben rechts in der Menüleiste (sieht aus wie Funkwellen). Darüber können Sie:
-
-* Sehen, ob Sie verbunden sind
-* Sich mit einem WLAN-Netzwerk verbinden
-
-[TIP]
-====
-*WLAN* (auch «WiFi» genannt) ist eine kabellose Internetverbindung. Das Passwort erhalten Sie vom Kursleiter oder steht auf Ihrem Router.
-====
+=== Modul 2: Fenster und Fensterverwaltung (10:45–11:30)
 
 ==== Theorie: Fenster verstehen
 
@@ -232,26 +254,6 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
 [TIP]
 ====
 *Split View:* Halten Sie den grünen Knopf gedrückt – macOS schlägt vor, den Bildschirm mit einem zweiten Fenster zu teilen.
-====
-
----
-
-==== Übung 6 – WLAN-Status prüfen und verbinden
-
-*Ziel:* WLAN-Symbol finden, Verbindungsstatus prüfen und mit dem Kursnetzwerk verbinden.
-
-. Schauen Sie oben rechts in die Menüleiste.
-. Klicken Sie auf das *WLAN-Symbol* (Funkwellen-Symbol).
-  ** Es öffnet sich ein Menü mit verfügbaren Netzwerken.
-. Prüfen Sie: Ist ein Netzwerk mit einem Häkchen markiert? Das ist die aktuelle Verbindung.
-. Ist kein Netzwerk verbunden: Klicken Sie auf das gewünschte Netzwerk in der Liste.
-  ** Ein Passwort-Fenster erscheint.
-. Geben Sie das Passwort des Kursnetzwerks ein und klicken Sie auf *Verbinden*.
-. Drücken Sie kbd:[Escape], um das Menü zu schliessen.
-
-[NOTE]
-====
-Sobald WLAN verbunden ist, erscheint das Symbol als ausgefülltes Fächer-Symbol. Erst jetzt funktioniert der Browser mit Internet.
 ====
 
 ---
@@ -366,10 +368,10 @@ Trackpad: Streichen Sie mit zwei Fingern nach oben oder unten, um die Seite zu s
 
 *Was haben wir heute gelernt?*
 
+* [x] WLAN verbinden und Internetverbindung herstellen
 * [x] Desktop, Menüleiste, Dock und Spotlight kennen
 * [x] Apps starten und im Dock behalten
 * [x] Apps schnell aus dem Dock öffnen
-* [x] WLAN verbinden und Internetverbindung herstellen
 * [x] Fenster öffnen, verschieben, teilen und wechseln
 * [x] Webseiten aufrufen und im Browser navigieren
 
@@ -382,7 +384,7 @@ Trackpad: Streichen Sie mit zwei Fingern nach oben oder unten, um die Seite zu s
 === Rückblick Tag 1 (09:00–09:15)
 
 * Fragen zu Tag 1 klären
-* Kurze Wiederholung: Desktop, Spotlight, Fenster, WLAN
+* Kurze Wiederholung: WLAN, Desktop, Spotlight, Fenster
 * Tagesprogramm vorstellen
 
 ---

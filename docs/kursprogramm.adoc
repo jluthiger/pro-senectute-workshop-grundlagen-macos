@@ -1,8 +1,7 @@
 = macOS Grundkurs – Kursprogramm
 :author_1: Pro Senectute Luzern
 :author_2: Jürg Luthiger
-:revnumber: 1.1
-
+:revnumber: 1.2
 :lang: de
 :toc:
 :toc-title: Inhaltsverzeichnis
@@ -15,7 +14,7 @@
 
 === Zielgruppe
 
-Seniorinnen und Senioren mit kaum oder keiner Mac-Erfahrung, die macOS grundlegend kennenlernen möchten.
+Seniorinnen und Senioren mit wenig Erfahrung mit dem Mac, die macOS grundlegend kennenlernen möchten.
 
 === Lernziele
 
@@ -863,4 +862,108 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 
 | kbd:[Enter]
 | Ausgewählte Datei / Ordner umbenennen (im Finder)
+|===
+
+---
+
+== Legende – Wichtige Begriffe
+
+Die wichtigsten Fachbegriffe aus diesem Kursprogramm, kurz erklärt (alphabetisch).
+
+[cols="2,5", options="header"]
+|===
+| Begriff | Erklärung
+
+| *Adressleiste*
+| Das lange Eingabefeld oben im Browser. Hier tippen Sie die Webadresse ein.
+
+| *App / Programm*
+| Eine Anwendung auf dem Mac, z. B. Safari, Rechner oder TextEdit. «App» und «Programm» bedeuten dasselbe.
+
+| *Apple-ID*
+| Ihr persönliches Benutzerkonto bei Apple (E-Mail-Adresse + Passwort). Nötig für iCloud Drive und den App Store.
+
+| *Browser*
+| Programm zum Anzeigen von Webseiten. Auf dem Mac heisst er *Safari*.
+
+| *Cloud*
+| Speicherplatz im Internet auf den Computern eines Anbieters (z. B. Apple). Dateien sind von überall erreichbar.
+
+| *Ctrl+Klick*
+| Ctrl-Taste gedrückt halten und klicken. Öffnet ein Menü mit weiteren Optionen – entspricht der rechten Maustaste.
+
+| *Datei*
+| Ein einzelnes Dokument, Bild, Musikstück usw., das auf dem Mac gespeichert ist.
+
+| *Desktop*
+| Der Startbildschirm von macOS – die digitale Arbeitsfläche mit Hintergrundbild.
+
+| *Dock*
+| Die Leiste am unteren Bildschirmrand mit den wichtigsten Apps und dem Papierkorb.
+
+| *Doppelklick*
+| Zweimal schnell hintereinander klicken. Öffnet eine Datei oder einen Ordner.
+
+| *Fenster*
+| Der Bereich, in dem eine App angezeigt wird. Kann verschoben, vergrössert, minimiert oder geschlossen werden.
+
+| *Finder*
+| Das Programm zum Verwalten von Dateien und Ordnern. Smiley-Symbol ganz links im Dock.
+
+| *iCloud Drive*
+| Der Cloud-Speicher von Apple. Dateien darin sind auf allen Ihren Apple-Geräten und unter `icloud.com` verfügbar.
+
+| *Internet*
+| Weltweites Netzwerk, das Computer miteinander verbindet. Grundlage für Webseiten, E-Mail und Cloud.
+
+| *Laufwerk / Volume*
+| Ein Speichermedium, z. B. die eingebaute Festplatte («Macintosh HD») oder ein USB-Stick.
+
+| *Link*
+| Ein anklickbarer Text oder ein Bild auf einer Webseite, der zu einer anderen Seite führt. Meist farbig oder unterstrichen.
+
+| *Menüleiste*
+| Die Leiste ganz oben am Bildschirm mit Apple-Menü, App-Menüs sowie Uhr, WLAN und Lautstärke.
+
+| *Ordner*
+| Behälter für Dateien oder weitere Ordner – wie ein Aktenordner im Büro.
+
+| *Papierkorb*
+| Sammelstelle für gelöschte Dateien (rechts im Dock). Dateien sind erst nach «Papierkorb leeren» endgültig weg.
+
+| *Scrollen*
+| Den Inhalt einer Seite nach oben oder unten bewegen – mit dem Mausrad oder zwei Fingern auf dem Trackpad.
+
+| *Sichern / Speichern*
+| Ein Dokument dauerhaft auf dem Mac, dem USB-Stick oder in iCloud Drive ablegen. Tastenkürzel: kbd:[⌘+S].
+
+| *Split View*
+| Zwei Fenster nebeneinander auf dem ganzen Bildschirm anzeigen. Grünen Knopf gedrückt halten.
+
+| *Spotlight*
+| Die Suchfunktion von macOS. Öffnen mit kbd:[⌘+Leertaste], dann Namen der App oder Datei tippen.
+
+| *Symbol (Icon)*
+| Kleines Bild, das eine App, eine Datei oder einen Ordner darstellt.
+
+| *Tab (Reiter)*
+| Mehrere Webseiten gleichzeitig in einem Browser-Fenster geöffnet halten – wie Registerkarten in einem Ordner.
+
+| *Tastenkürzel*
+| Tastenkombination, die eine Aktion auslöst, z. B. kbd:[⌘+C] für Kopieren. Die kbd:[⌘]-Taste heisst «Command».
+
+| *Trackpad*
+| Die berührungsempfindliche Fläche am MacBook, die die Maus ersetzt.
+
+| *USB-Stick*
+| Kleines, tragbares Speichermedium. Vor dem Herausziehen immer «auswerfen».
+
+| *Webadresse (URL)*
+| Die Adresse einer Webseite, z. B. `www.srf.ch`. Wird in die Adressleiste des Browsers eingetippt.
+
+| *Webseite*
+| Eine Seite im Internet, die im Browser angezeigt wird.
+
+| *WLAN (WiFi)*
+| Kabellose Verbindung zum Internet. Symbol oben rechts in der Menüleiste (Funkwellen).
 |===

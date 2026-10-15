@@ -32,6 +32,12 @@ Nach dem Kurs können die Teilnehmenden:
 * Kein Vorwissen nötig
 * Grundlegende Handhabung einer Maus oder des Trackpads (bewegen, klicken) hilfreich
 
+=== Kursunterlagen und Links
+
+* https://lu.prosenectute.ch[Pro Senectute Luzern^]
+* https://lu.kurse.pro-senectute.ch/de/macos-grundlagen/k!15922/[Kursausschreibung «macOS Grundlagen»^]
+* https://www.youtube.com/watch?v=U3ej8RFeOUc[Video: MacOS-Grundlagen-Tutorial (YouTube)^]
+
 === Zeitplan
 
 [cols="^1,4,^1", options="header"]
@@ -144,7 +150,7 @@ Apps können ins Dock gezogen oder daraus entfernt werden. Durch Ctrl+Klick (ode
 *Ziel:* Den Desktop kennenlernen und 5 Elemente benennen.
 
 . Schauen Sie sich den Desktop genau an.
-. Zeigen Sie mit der Maus auf ein Symbol – z.T. erscheint ein kleiner Hinweistext.
+. Zeigen Sie mit der Maus auf ein Symbol – z. T. erscheint ein kleiner Hinweistext.
 . Suchen Sie diese 5 Dinge und nennen Sie sie laut:
   ** Die Menüleiste (ganz oben)
   ** Das Apple-Symbol (🍎 oben links)
@@ -290,6 +296,11 @@ Die Grösse lässt sich ändern, indem man einen *Fensterrand oder -ecke* mit de
 Um den Splitscreen zu beenden, ziehen Sie das Fenster in die Mitte des Bildschirms oder klicken Sie auf den grünen Knopf.
 ====
 
+[NOTE]
+====
+Zum Nachschlagen: https://www.srf.ch[www.srf.ch^]
+====
+
 ---
 
 ==== Übung 9 – Zwischen Fenstern wechseln
@@ -359,6 +370,8 @@ Eine *Webadresse* beginnt meist mit `www.` und endet auf `.ch`, `.de` oder `.com
 [NOTE]
 ====
 Trackpad: Streichen Sie mit zwei Fingern nach oben oder unten, um die Seite zu scrollen.
+
+Zum Nachschlagen: https://www.pro-senectute.ch[www.pro-senectute.ch^] · https://www.meteoschweiz.admin.ch[www.meteoschweiz.admin.ch^]
 ====
 
 ---
@@ -520,7 +533,7 @@ Gelöschte Dateien landen zuerst im *Papierkorb* im Dock – sie sind noch nicht
 . Stellen Sie sicher, dass Sie im Ordner *Dokumente* sind.
 . Klicken Sie mit der *rechten Maustaste* (oder Ctrl+Klick) in den leeren Bereich rechts.
 . Wählen Sie *Neuer Ordner*.
-  ** Ein neuer Ordner erscheint mit dem Namen Neuer Ordner» (blau markiert).
+  ** Ein neuer Ordner erscheint mit dem Namen «Neuer Ordner» (blau markiert).
 . Tippen Sie sofort: `Kurs`
 . Drücken Sie kbd:[Enter].
   ** Der Ordner heisst jetzt «Kurs».
@@ -538,7 +551,7 @@ Alternativ: kbd:[⌘+⇧+N] erstellt sofort einen neuen Ordner.
 
 . Bleiben Sie im Ordner *Dokumente*.
 . Klicken Sie mit der *rechten Maustaste* (Ctrl+Klick) auf eine beliebige Datei (falls vorhanden).
-  ** Falls keine Datei vorhanden. Sie können eine Beispieldatei xref:mein-setup.pdf[hier] herunterladen.
+  ** Falls keine Datei vorhanden. Sie können eine Beispieldatei link:mein-setup.pdf[hier^] herunterladen.
 . Wählen Sie *Kopieren*.
 . Doppelklicken Sie auf den Ordner *Kurs*, um ihn zu öffnen.
 . Drücken Sie kbd:[⌘+V].
@@ -613,7 +626,7 @@ Die Dateiendung (z. B. `.txt`, `.docx`) muss nicht geändert werden. macOS warnt
 ====
 Beim ersten Öffnen fragt TextEdit, ob ein neues Dokument erstellt oder ein vorhandenes geöffnet werden soll. Klicken Sie auf *Neues Dokument*.
 
-Für formatierte Dokumente (Briefe mit Schriftarten, Tabellen usw.) empfiehlt sich *Pages* (kostenlos auf dem Mac). Im Kurs verwenden wir TextEdit, weil er einfacher zu bedienen ist.
+Für formatierte Dokumente (Briefe mit Schriftarten, Tabellen usw.) empfiehlt sich *Pages* (kostenlos auf dem Mac, siehe https://apps.apple.com/ch/app/pages/id361309726[Pages im App Store^]). Im Kurs verwenden wir TextEdit, weil er einfacher zu bedienen ist.
 ====
 
 ==== Theorie: Sichern-Dialog
@@ -719,6 +732,8 @@ Wenn Sie eine Datei in iCloud Drive speichern, wird sie automatisch über das In
 
 iCloud Drive ist in macOS eingebaut. Im *Finder* erscheint iCloud Drive als eigener Bereich in der linken Seitenleiste.
 
+Mehr dazu: https://support.apple.com/de-ch/guide/mac-help/mchle5a61431/mac[Dateien in iCloud Drive auf dem Mac speichern (Apple Support)^]
+
 [IMPORTANT]
 ====
 iCloud Drive ist *kein Ersatz* für Ihren Mac. Ihre Dateien auf dem Mac bleiben weiterhin dort – iCloud Drive ist eine zusätzliche Sicherheitskopie in der Cloud. Beide Orte haben denselben Inhalt.
@@ -726,14 +741,14 @@ iCloud Drive ist *kein Ersatz* für Ihren Mac. Ihre Dateien auf dem Mac bleiben 
 
 [NOTE]
 ====
-Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft beim Einrichten, falls noch keine vorhanden ist.
+Für iCloud Drive benötigen Sie eine Apple-ID (kostenlos). Der Kursleiter hilft beim Einrichten, falls noch keine vorhanden ist. Anleitung: https://support.apple.com/de-ch/108647[Neuen Apple Account erstellen (Apple Support)^]
 ====
 
 ==== Theorie: iCloud Drive im Browser aufrufen
 
 Sie können auf Ihre iCloud Drive-Dateien auch über den *Webbrowser* zugreifen – ohne den Finder, und sogar von einem fremden Computer aus.
 
-Die Adresse lautet: `icloud.com`
+Die Adresse lautet: https://www.icloud.com[icloud.com^]
 
 *Warum ist das nützlich?*
 
@@ -817,6 +832,8 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 
 == Nützliche Tastenkürzel
 
+Vollständige Liste: https://support.apple.com/de-ch/102650[Mac-Shortcuts (Apple Support)^]
+
 [cols="^2,4", options="header"]
 |===
 | Tastenkürzel | Funktion
@@ -863,6 +880,14 @@ iCloud im Browser ist praktisch, wenn Sie an einem fremden Computer arbeiten und
 | kbd:[Enter]
 | Ausgewählte Datei / Ordner umbenennen (im Finder)
 |===
+
+---
+
+== Weiterführende Hilfe
+
+* https://support.apple.com/de-ch/guide/mac-help/welcome/mac[macOS-Benutzerhandbuch (Apple Support)^]
+* https://support.apple.com/de-ch/102650[Mac-Shortcuts (Apple Support)^]
+* https://lu.prosenectute.ch[Pro Senectute Luzern – weitere Kurse^]
 
 ---
 

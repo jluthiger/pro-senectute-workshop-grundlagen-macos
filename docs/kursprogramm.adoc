@@ -35,7 +35,6 @@ Nach dem Kurs können die Teilnehmenden:
 === Kursunterlagen und Links
 
 * https://lu.prosenectute.ch[Pro Senectute Luzern^]
-* https://lu.kurse.pro-senectute.ch/de/macos-grundlagen/k!15922/[Kursausschreibung «macOS Grundlagen»^]
 * https://www.youtube.com/watch?v=U3ej8RFeOUc[Video: MacOS-Grundlagen-Tutorial (YouTube)^]
 
 === Zeitplan

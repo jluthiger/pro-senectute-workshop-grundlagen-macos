@@ -3,7 +3,6 @@
 ## Links
 
 - [MacOS-Grundlagen-Tutorial](https://www.youtube.com/watch?v=U3ej8RFeOUc&t=111s)
-- [Ausschreibung Pro Senectute](https://lu.kurse.pro-senectute.ch/de/macos-grundlagen/k!15922/)
 
 ## Workshop Informationen
 
